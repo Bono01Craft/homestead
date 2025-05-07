@@ -1,0 +1,1226 @@
+{
+	autofocus_id: "41408D122B3507C2"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "beginning_game"
+	group: ""
+	icon: "natures_spirit:coconut_sprout"
+	id: "4FBC0450A0666A2B"
+	images: [
+		{
+			height: 4.0d
+			image: "ftbquests:textures/homestead/homestead_full_export.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			height: 15.0d
+			image: "ftbquests:textures/homestead/homestead_quest_bg.png"
+			order: -1
+			rotation: 0.0d
+			width: 30.0d
+			x: -2.5d
+			y: -4.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&lWelcome to Homestead – the Coziest Minecraft Modpack Out There!&r"
+				""
+				"Nestled at the edge of forgotten woods and ancient valleys, Homestead invites you to step into a world where magic hums softly beneath the soil, and every sunrise brings new possibilities. This is no ordinary land. Once a thriving realm of harmony between nature and craft, it now awaits a new caretaker; you."
+				""
+				"Long ago, the original settlers of this realm vanished, leaving behind scattered relics, overgrown homesteads, and whispered legends of a time when every hill, hearth, and harvest was bursting with life. Now, strange structures rise from the earth like memories that refuse to fade. Curious creatures; both gentle and fearsome; roam the forests and fields, many unknown to the adventurers of old. Unfamiliar blocks gleam with potential. Enigmatic items hold secrets waiting to be unlocked."
+				""
+				"Here in Homestead, the world bends to creativity, exploration, and gentle discovery. There is no one path to follow; only the one you make for yourself. Will you rebuild the forgotten villages? Tame the wilderness into a blooming paradise? Master the arcane and mechanical wonders buried deep in the land?"
+				""
+				"This world is yours."
+				""
+				"&lTend it. Shape it. Live in it.&r"
+				""
+				"Let your story begin; not with a battlecry, but with a breath of crisp morning air, the crackle of a fireplace, and the gentle rustle of leaves outside your window."
+				""
+				"Welcome home, traveler."
+			]
+			icon: "meadow:pine_sign"
+			id: "70E4CC545EFE64E3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "633D9BE8BB1C8B23"
+					table_id: 6828356437669856216L
+					type: "random"
+				}
+				{
+					id: "61C380A46420C997"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "38A3886485CC5ADE"
+				title: "Welcome to Homestead!"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["70E4CC545EFE64E3"]
+			description: ["Ah, the classic punch-a-tree moment."]
+			id: "12D2461BFD36A91D"
+			rewards: [
+				{
+					id: "5A3437E2CA21E955"
+					item: {
+						Count: 1
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:efficiency"
+									lvl: 3
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 1
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4AE53C41AD62CBE9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Get 16 logs"
+			tasks: [{
+				count: 16L
+				id: "0B05AACE90D016A5"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "Timber!"
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["12D2461BFD36A91D"]
+			description: ["Useful, pointy, and easy to lose."]
+			id: "1EDDE6459E1EA5D7"
+			rewards: [
+				{
+					count: 16
+					id: "6AB7439242A91434"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					id: "3D793B551B6DC6C4"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Craft 32 sticks."
+			tasks: [{
+				count: 32L
+				id: "1D6635BBC34F52BA"
+				item: "minecraft:stick"
+				only_from_crafting: true
+				type: "item"
+			}]
+			title: "Stick It Together"
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1EDDE6459E1EA5D7"]
+			description: [
+				"Darkness fears you now."
+				""
+				"&8&oOnly works with torches placed on the floor.&r&r"
+			]
+			id: "4233C91E7D48BE66"
+			rewards: [
+				{
+					count: 8
+					id: "10D2CC44EF2D125F"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "019615DA891F0E72"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Place 20 torches"
+			tasks: [{
+				block: "minecraft:torch"
+				block_type: 0
+				id: "741E579C5D960B32"
+				replace: false
+				replaced: "minecraft:air"
+				title: "Let There Be Light"
+				type: "questsadditions:place"
+				value: 20L
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4233C91E7D48BE66"]
+			description: ["Rocking those upgrades."]
+			id: "4E33D9F275DD6F34"
+			rewards: [
+				{
+					count: 5
+					id: "24E4B165747AA22C"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "2E1B3D2A7D47DECC"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Craft a full set of stone tools."
+			tasks: [
+				{
+					id: "22949C0C55CF3786"
+					item: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77E79220C92A12E5"
+					item: {
+						Count: 1
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65C02BD69276E079"
+					item: {
+						Count: 1
+						id: "minecraft:stone_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3346C183751DFE83"
+					item: {
+						Count: 1
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E26B3E2B012FD9F"
+					item: {
+						Count: 1
+						id: "minecraft:stone_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Stone Age"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["680C0307B8AEA950"]
+			description: ["A little dig never hurt anyone… right?"]
+			id: "5D9C5DFEAE773768"
+			rewards: [
+				{
+					count: 5
+					id: "4194D237803CF1D4"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "03B19E1FB6D43190"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Mine down and grab 16 Cobbled Deepslate"
+			tasks: [{
+				count: 16L
+				id: "387428B09AB267A7"
+				item: { Count: 16, id: "minecraft:cobbled_deepslate" }
+				type: "item"
+			}]
+			title: "Going Deeper"
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4A9AA961A2D5156E"]
+			description: ["Your first taste of strength."]
+			id: "36DAD51BCB97C481"
+			rewards: [
+				{
+					count: 10
+					id: "5E4FCEDA8652D523"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "5CDDD4ABB7C3729F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Collect 20 raw iron."
+			tasks: [{
+				count: 20L
+				id: "672182F1D6179B60"
+				item: { Count: 20, id: "minecraft:raw_iron" }
+				type: "item"
+			}]
+			title: "Iron Will"
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["36DAD51BCB97C481"]
+			description: ["Ding! Advancement unlocked."]
+			id: "680C0307B8AEA950"
+			rewards: [
+				{
+					id: "272148B9C8D775F5"
+					item: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1889C9E02372D2C5"
+					item: {
+						Count: 1
+						id: "minecraft:iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2772F58B40BB540D"
+					item: {
+						Count: 1
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4592B1C589B46051"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Craft an iron pickaxe."
+			tasks: [{
+				id: "345043A638883EFF"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				only_from_crafting: true
+				type: "item"
+			}]
+			title: "Tool Up"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["114E18DC17B83535"]
+			description: ["Just one. Just to see how it feels."]
+			id: "62B714DE50FB221D"
+			rewards: [
+				{
+					id: "3CA54F5F64F73DC0"
+					item: "spelunkery:rough_diamond"
+					type: "item"
+				}
+				{
+					id: "556728DFDD4CA6F5"
+					item: "minecraft:polished_deepslate_slab"
+					type: "item"
+				}
+			]
+			subtitle: "Find and collect your first diamond."
+			tasks: [{
+				id: "79BC094919F51D47"
+				item: "spelunkery:rough_diamond"
+				type: "item"
+			}]
+			title: "Shiny Discovery!"
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5D9C5DFEAE773768"]
+			description: ["Efficiency is cozy."]
+			id: "20955B90EFCCDBD6"
+			rewards: [
+				{
+					id: "62A9EDF86F4B49C8"
+					item: "minecraft:blast_furnace"
+					type: "item"
+				}
+				{
+					id: "0F1DF8059A4C981B"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "Smelt 64 iron ingots in a furnace."
+			tasks: [{
+				count: 64L
+				id: "6F26FF008EFA0885"
+				item: { Count: 64, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			title: "Fuel the Fire"
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4E33D9F275DD6F34"]
+			description: ["No phantoms tonight!"]
+			id: "4A9AA961A2D5156E"
+			rewards: [
+				{
+					count: 2
+					id: "49E4AC047D6FADA6"
+					item: "minecraft:lantern"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "09A8EC49BD8A95B0"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "621E44E67825D086"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+				{
+					id: "5F20E3ECDB033907"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Place a bed and sleep at least once."
+			tasks: [
+				{
+					block: "minecraft:chest"
+					block_type: 0
+					id: "50081887F50D7D6C"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 2L
+				}
+				{
+					icon: "minecraft:white_bed"
+					id: "09E2E208013C1D6A"
+					stat: "minecraft:sleep_in_bed"
+					title: "Sleep 1x in bed"
+					type: "stat"
+					value: 1
+				}
+				{
+					id: "4F45E2715C99382C"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:beds)"
+						}
+					}
+					only_from_crafting: true
+					title: "Craft Any #minecraft:beds"
+					type: "item"
+				}
+			]
+			title: "Early Shelter"
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["20955B90EFCCDBD6"]
+			description: ["Now you're really protected!"]
+			id: "0E8B55E424772D66"
+			rewards: [
+				{
+					id: "4708E2ECCBE9C6DE"
+					item: "ironchests:iron_chest"
+					type: "item"
+				}
+				{
+					id: "6EF2845BF7604083"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "757F20C595481EF5"
+					table_id: 4133455367915971063L
+					title: "Random CozyCord Team Plushie"
+					type: "random"
+				}
+			]
+			subtitle: "Craft a full set of iron armor."
+			tasks: [
+				{
+					id: "53254E9990583324"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "79C54DC677498513"
+					item: {
+						Count: 1
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "62E29C15245846A2"
+					item: {
+						Count: 1
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "6848E28605191CE3"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+			]
+			title: "Iron Man!"
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1A27B74E9EC3C055"]
+			description: ["They chose you!"]
+			id: "42BB1EF6F4AEE16C"
+			rewards: [
+				{
+					id: "6E25391466490FA5"
+					item: "minecraft:lead"
+					type: "item"
+				}
+				{
+					id: "415CB165258E1D08"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Tame your first animal (dog, cat, etc.)."
+			tasks: [{
+				advancement: "minecraft:husbandry/tame_an_animal"
+				criterion: ""
+				id: "6EB3C38AA3F15928"
+				title: "Tame your first animal"
+				type: "advancement"
+			}]
+			title: "A Little Help"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["42BB1EF6F4AEE16C"]
+			description: ["Keep wandering!"]
+			id: "5B2DEE4607FDEA26"
+			rewards: [
+				{
+					id: "480AAB0F63A5B487"
+					item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+					type: "item"
+				}
+				{
+					id: "140AB84C78C5DF44"
+					item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+					type: "item"
+				}
+				{
+					id: "3B6DDABEEC5647E1"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "Walk 10,000 blocks"
+			tasks: [{
+				icon: "luphieclutteredmod:luphie_antique_map"
+				id: "275D3493A04EE85F"
+				stat: "minecraft:walk_one_cm"
+				title: "Walk 10,000 Blocks"
+				type: "stat"
+				value: 10000
+			}]
+			title: "Overworld Explorer"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5B2DEE4607FDEA26"]
+			description: ["Your best blocky friend."]
+			id: "163BF40F2F8A9A73"
+			rewards: [
+				{
+					id: "55CE4DFF4249703D"
+					item: "uncraftingtable76:uncraftingtable"
+					type: "item"
+				}
+				{
+					id: "306E10D0E5F8B76F"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "Craft a crafting table and use it 100 times."
+			tasks: [{
+				block: "minecraft:crafting_table"
+				block_type: 0
+				checkItem: false
+				id: "1047069C7292E46D"
+				isItemInteraction: false
+				title: "Use the Crafting Table 100x"
+				type: "questsadditions:use"
+				value: 100L
+			}]
+			title: "Getting Crafty"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["163BF40F2F8A9A73"]
+			id: "006528934D2EB0E7"
+			rewards: [
+				{
+					id: "08A3EC3B618C27C7"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_pickaxe"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:efficiency"
+									lvl: 5
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68D8D2E86DD0B636"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "Break 500 stone and give 500 cobblestone"
+			tasks: [
+				{
+					block: "minecraft:stone"
+					block_type: 0
+					checkItem: false
+					id: "11ECE18D4ED69461"
+					type: "questsadditions:break"
+					value: 500L
+				}
+				{
+					consume_items: true
+					count: 500L
+					id: "0ECAEDFF62C07DA1"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+			]
+			title: "Diggy Diggy Hole"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["006528934D2EB0E7"]
+			description: ["Making your mark."]
+			id: "475734D998D6BAD0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "39997FEBA8688718"
+					table_id: 8585761087875589383L
+					type: "random"
+				}
+				{
+					id: "2CD39C4EC9F37CF7"
+					item: {
+						Count: 1
+						id: "homestead:golden_leaf"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "12E84C826B727DEB"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "patchouli:roots_take_hold"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Place the essential needed blocks for a base"
+			tasks: [
+				{
+					block: "minecraft:chest"
+					block_type: 0
+					id: "1B688ED84222ED48"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 20L
+				}
+				{
+					block: "minecraft:barrel"
+					block_type: 0
+					id: "69FF4ACBE98380D0"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 10L
+				}
+				{
+					block: "minecraft:crafting_table"
+					block_type: 0
+					id: "0ACA1DAF404B6247"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 5L
+				}
+				{
+					block: "minecraft:furnace"
+					block_type: 0
+					id: "1538527E952C6CD0"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 16L
+				}
+				{
+					block: "minecraft:blast_furnace"
+					block_type: 0
+					id: "5993DA23E4042954"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 4L
+				}
+				{
+					block: "minecraft:smoker"
+					block_type: 0
+					id: "5FEFFDD2731224E1"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 4L
+				}
+			]
+			title: "Getting Settled"
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["62B714DE50FB221D"]
+			description: ["Every rough gem deserves its glow-up. Give that diamond a spa day and reveal the sparkle within."]
+			id: "4241200C2BB46DF7"
+			rewards: [
+				{
+					id: "21F0499E080B79EE"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "3C2E7FBFF0B720F1"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "Craft a Diamond Grindstone and polish a Rough Diamond on it."
+			tasks: [
+				{
+					id: "0EF6749A7E43359A"
+					item: "spelunkery:diamond_grindstone"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "0545F1199394CCAF"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			title: "Shiny Side Up"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0E8B55E424772D66"]
+			description: [
+				"You’re not diamonds yet, but hey—at least you’re shiny and mildly impressive."
+				""
+				"&oBronze is made by combining 4 Copper Ingots and 1 Tin Ingot.&r"
+			]
+			id: "114E18DC17B83535"
+			rewards: [
+				{
+					count: 8
+					id: "0B7AAC88479DF055"
+					item: "bronze:tin_ingot"
+					type: "item"
+				}
+				{
+					count: 48
+					id: "5BE42D1E288B8B36"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+				{
+					id: "25AFFB891F61741F"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
+			subtitle: "Make 16 Bronze Ingots and Make a Full Bronze Tool Set"
+			tasks: [{
+				count: 16L
+				id: "66ED8148501A6873"
+				item: { Count: 16, id: "bronze:bronze_ingot" }
+				type: "item"
+			}]
+			title: "Bringing Home the Bronze"
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4241200C2BB46DF7"]
+			description: [
+				"So tough, even your pickaxe cried a little. You earned these."
+				""
+				"&oObsidian Ingots are made by smelting Obsidian in a Furnace.&r"
+			]
+			id: "787A0DD0608841B5"
+			rewards: [
+				{
+					count: 8
+					id: "38A272F0EF3AF0B5"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "0B13D4F864CAF3BD"
+					item: "obsidianequipment:obsidian_shard"
+					type: "item"
+				}
+				{
+					id: "262E1691536D32E0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Obtain 8 Obsidian Ingots"
+			tasks: [{
+				count: 8L
+				id: "33F32E5B7C52DBE3"
+				item: { Count: 8, id: "obsidianequipment:obsidian_ingot" }
+				type: "item"
+			}]
+			title: "Hard Rock Life"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["787A0DD0608841B5"]
+			description: ["You're basically a walking tank now. Try not to fall in water—you might not float."]
+			id: "2EF18FE742774AB6"
+			rewards: [
+				{
+					id: "24F68211AC9ADCDB"
+					item: {
+						Count: 1
+						id: "obsidianequipment:obsidian_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B84D87CE779EF2C"
+					item: {
+						Count: 1
+						id: "obsidianequipment:obsidian_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "259741B5DB019554"
+					item: {
+						Count: 1
+						id: "obsidianequipment:obsidian_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72396153EEC979F4"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Craft a Full Set of Obsidian Armor, an Obsidian Sword, and an Obsidian Pickaxe"
+			tasks: [
+				{
+					id: "2AB0EA444683718C"
+					item: {
+						Count: 1
+						id: "obsidianequipment:obsidian_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "0AF622545FCA1EFA"
+					item: {
+						Count: 1
+						id: "obsidianequipment:obsidian_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "456500A6B700BB9D"
+					item: {
+						Count: 1
+						id: "obsidianequipment:obsidian_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "4E1D89D2A2F994C8"
+					item: {
+						Count: 1
+						id: "obsidianequipment:obsidian_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "03BB38ACBA984206"
+					item: {
+						Count: 1
+						id: "obsidianequipment:obsidian_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "0084A9683087C5BF"
+					item: {
+						Count: 1
+						id: "obsidianequipment:obsidian_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+			]
+			title: "Drip So Dense It Sinks"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2EF18FE742774AB6"]
+			description: ["Magic rocks + shiny letters = gear that glows and enemies that go."]
+			id: "360C91A455E67648"
+			rewards: [
+				{
+					count: 32
+					id: "1B5E80697C379CAD"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "53451B7734342F66"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "69F4B5915B0010BB"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Craft an Enchanting Table and 15 Bookshelves"
+			tasks: [
+				{
+					id: "277771025CF9244E"
+					item: "minecraft:enchanting_table"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "0D9E7922F4488B44"
+					item: { Count: 15, id: "minecraft:bookshelf" }
+					only_from_crafting: true
+					type: "item"
+				}
+			]
+			title: "Enchanté!"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["360C91A455E67648"]
+			description: ["Renewable hell juice? Welcome to clean energy."]
+			id: "2A9C6E25EDDCEF1A"
+			rewards: [
+				{
+					id: "4F022CE3FBF21CD1"
+					item: {
+						Count: 1
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67C2642D32DC93D9"
+					item: {
+						Count: 1
+						id: "friendsandfoes:wildfire_crown"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FE579F4611ADC16"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Create an Automated Lava Source (Dripper, Cauldron Method, etc.)"
+			tasks: [
+				{
+					count: 3L
+					id: "1F524ED7F44DAC03"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1DE83EB63ED7123D"
+					item: { Count: 3, id: "minecraft:lava_bucket" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "5CC36DBACFC4E71F"
+					item: { Count: 3, id: "minecraft:pointed_dripstone" }
+					type: "item"
+				}
+			]
+			title: "Lava Logistics"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2A9C6E25EDDCEF1A"]
+			description: ["A farmer’s flex: carbs in four varieties."]
+			id: "1A27B74E9EC3C055"
+			rewards: [
+				{
+					count: 4
+					id: "1A2E7A5AC655EE85"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "354E5B94BDD68679"
+					item: "minecraft:hay_block"
+					type: "item"
+				}
+				{
+					id: "7CEFABB24245C3FC"
+					item: {
+						Count: 1
+						id: "vinery:straw_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Grow and Harvest All Basic Crops (Wheat, Carrots, Potatoes, Beetroot)"
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "45DFE5493BCCFAE8"
+					item: { Count: 8, id: "minecraft:carrot" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "223567919C5460DD"
+					item: { Count: 8, id: "minecraft:potato" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "5D4768565F69452F"
+					item: { Count: 8, id: "minecraft:wheat" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "1207B52BDB0DB98F"
+					item: { Count: 8, id: "minecraft:beetroot" }
+					type: "item"
+				}
+			]
+			title: "Nature’s Bounty"
+			x: 1.5d
+			y: -0.5d
+		}
+	]
+	title: "The First Sprout"
+}

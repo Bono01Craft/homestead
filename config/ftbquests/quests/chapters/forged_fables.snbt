@@ -1,0 +1,3507 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "forged_fables"
+	group: ""
+	icon: "mythicupgrades:peridot_upgrade_smithing_template"
+	id: "0214FF591265942D"
+	images: [
+		{
+			height: 11.0d
+			image: "ftbquests:textures/homestead/forged_fables.png"
+			rotation: 0.0d
+			width: 11.0d
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			height: 15.0d
+			image: "ftbquests:textures/homestead/forged_quest_bg.png"
+			order: -100
+			rotation: 0.0d
+			width: 30.0d
+			x: -0.5d
+			y: -1.0d
+		}
+	]
+	order_index: 14
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Nature said \"treat yourself\" and handed you bling."]
+			id: "71077E59CAA76852"
+			rewards: [
+				{
+					count: 3
+					id: "00231072EE11D210"
+					item: "mythicupgrades:peridot_potion"
+					type: "item"
+				}
+				{
+					id: "09F0D9489D301E6A"
+					item: "mythicupgrades:peridot_crystal_shard"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Mine Peridot Ore. Find a Peridot Upgrade Template."
+			tasks: [
+				{
+					id: "1C7037DC1CD037C7"
+					item: "mythicupgrades:peridot"
+					type: "item"
+				}
+				{
+					id: "7EC77388812605E7"
+					item: "mythicupgrades:peridot_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			title: "Green Means Go"
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			description: ["Channel your inner Zuko. Look fabulous while doing it."]
+			id: "6270DEBAC7E4258C"
+			rewards: [
+				{
+					count: 3
+					id: "66AB7F0E3715AD30"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "783616F736D73E50"
+					item: "mythicupgrades:topaz_crystal_shard"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Mine Topaz Ore. Find a Topaz Upgrade Template"
+			tasks: [
+				{
+					id: "199EF115EE03591C"
+					item: "mythicupgrades:topaz"
+					type: "item"
+				}
+				{
+					id: "061161EE2191D55A"
+					item: "mythicupgrades:topaz_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			title: "For the Fire Nation!"
+			x: -8.0d
+			y: -5.5d
+		}
+		{
+			description: ["Dress like the ocean cried on you, in a good way."]
+			id: "4CB174A57E3BA102"
+			rewards: [
+				{
+					count: 3
+					id: "68D3596CBF739D86"
+					item: "mythicupgrades:sapphire_potion"
+					type: "item"
+				}
+				{
+					id: "68089D9261C4050D"
+					item: "mythicupgrades:sapphire_crystal_shard"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Mine Sapphire Ore. Find a Sapphire Upgrade Template."
+			tasks: [
+				{
+					id: "7055A2C1835CB512"
+					item: "mythicupgrades:sapphire"
+					type: "item"
+				}
+				{
+					id: "32FD861AC85650D7"
+					item: "mythicupgrades:sapphire_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			title: "Blue-tiful!"
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			description: ["Passion. Power. The color of rage and strawberry jam."]
+			id: "12D9F8448A9CA11B"
+			rewards: [
+				{
+					count: 3
+					id: "069019138F294205"
+					item: "mythicupgrades:ruby_potion"
+					type: "item"
+				}
+				{
+					id: "51B7B7EBDF8D66A6"
+					item: "mythicupgrades:ruby_crystal_shard"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Mine Ruby Ore. Find a Ruby Upgrade Template."
+			tasks: [
+				{
+					id: "50AC8A0049274CCE"
+					item: "mythicupgrades:ruby"
+					type: "item"
+				}
+				{
+					id: "4493D1F96F4AA111"
+					item: "mythicupgrades:ruby_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			title: "Red-y for Battle"
+			x: -9.5d
+			y: -5.5d
+		}
+		{
+			description: ["Hydration is important. So is looking amazing."]
+			id: "295232F0BA0F4064"
+			rewards: [
+				{
+					count: 3
+					id: "22CB921DE8BCBD0F"
+					item: "mythicupgrades:aquamarine_potion"
+					type: "item"
+				}
+				{
+					id: "1DFEDF8B62959AD0"
+					item: "mythicupgrades:aquamarine_crystal_shard"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Mine Aquamarine Ore. Find an Aquamarine Upgrade Template."
+			tasks: [
+				{
+					id: "44F934D75E983FDC"
+					item: "mythicupgrades:aquamarine"
+					type: "item"
+				}
+				{
+					id: "15FE8A5704567ED0"
+					item: "mythicupgrades:aquamarine_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			title: "Moist but Make It Fashion"
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			description: ["When purple isn’t just a color—it’s a mood."]
+			id: "7843CFA939AE85CB"
+			rewards: [
+				{
+					count: 3
+					id: "2E5230772B4DEAF2"
+					item: "mythicupgrades:ametrine_potion"
+					type: "item"
+				}
+				{
+					id: "3C0C0D18F746B89D"
+					item: "mythicupgrades:ametrine_crystal_shard"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Mine Ametrine Ore. Find an Ametrine Upgrade Template."
+			tasks: [{
+				id: "4FC0C133126EF4E0"
+				item: "mythicupgrades:ametrine"
+				type: "item"
+			}]
+			title: "Violet Violence"
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			description: ["Inner peace achieved via stylish combat."]
+			id: "476E27F98F9231E9"
+			rewards: [
+				{
+					count: 3
+					id: "6290FA94A3049F0B"
+					item: "mythicupgrades:jade_potion"
+					type: "item"
+				}
+				{
+					id: "1FBF580385D54EA8"
+					item: "mythicupgrades:jade_crystal_shard"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Mine Jade Ore. Find a Jade Upgrade Template."
+			tasks: [
+				{
+					id: "07721145568C5F18"
+					item: "mythicupgrades:jade"
+					type: "item"
+				}
+				{
+					id: "4607BE383E71989F"
+					item: "mythicupgrades:jade_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			title: "Serenity Slam"
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			description: ["You see ore. You mine ore. You become a god."]
+			id: "4E3FFFC9B87866BF"
+			rewards: [
+				{
+					count: 2
+					id: "21C5A66F373015B4"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "38BD3CF8051CD6E7"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "35171316472BD278"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "diamond"
+			subtitle: "Mine 35 Necoium Ore and smelt them into ingots."
+			tasks: [{
+				count: 35L
+				id: "53E1FDFE055261E0"
+				item: { Count: 35, id: "mythicupgrades:necoium_ingot" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			description: ["You couldn't live with your own failure. Where did that bring you? Back to me."]
+			id: "68391B635F1A2FD9"
+			rewards: [
+				{
+					id: "0EF2DBA3E95AE387"
+					item: "things:riot_gauntlet"
+					type: "item"
+				}
+				{
+					id: "78F5512C7DA8610C"
+					item: "things:recall_potion"
+					type: "item"
+				}
+				{
+					id: "5ED682644A17FCF3"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "0E4861FE0B9D150E"
+					item: {
+						Count: 1
+						id: "clutter:purple_butterfly_elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C654536D5FF79A0"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+				{
+					id: "1B64504B36244D26"
+					type: "xp"
+					xp: 5000
+				}
+				{
+					id: "48135A1BA48D237F"
+					item: {
+						Count: 1
+						id: "homestead:golden_leaf"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Mine 245 Necoium Ore. Craft full sets of Topaz, Sapphire, Ruby, Aquamarine, Jade, Peridot, Ametrine equipment."
+			tasks: [
+				{
+					block: "mythicupgrades:necoium_ore"
+					block_type: 0
+					checkItem: false
+					id: "531A4E31B87A89ED"
+					type: "questsadditions:break"
+					value: 245L
+				}
+				{
+					id: "14C45AD6285DCDDA"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F8D2E3B5612DBEA"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "193220F51D7FC544"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4130600FD4ACCEC5"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "144290D2A95D1A28"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C3BE3235F53A6F9"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "651D0086CE3CDDF0"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4ACAAA2601E0C924"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F01D15D6C0832CE"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ruby_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C7E62CE329DB0EC"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01D9B633C53B1A04"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "785E8F5A2339F4DF"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6392B9889CE5F0FC"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18CE506F6283B602"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E79E5A508B4A8DB"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75EF3FE56D853629"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2844EBB9F2EF763B"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78B101D35B7649A7"
+					item: {
+						Count: 1
+						id: "mythicupgrades:topaz_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49CBA1A8937541BA"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7EBC4CDE2A8B117A"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01C99E96FCB5CD7F"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BEA831A7F125850"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3426B00022AC6123"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "470565AE382FF0A9"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2371A77201130902"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32762A7C05505F36"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "787432D8CB36F83A"
+					item: {
+						Count: 1
+						id: "mythicupgrades:peridot_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "685F8DE7198A95E3"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B27626BDC246C04"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BE3F4B2FDCCCE2C"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22EA871C414B2E04"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "400084039B545D91"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40C6851ED0C321B0"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78EB0E4DE9700F97"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CD5C9D5BCB2CF01"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05C4880712AAB56A"
+					item: {
+						Count: 1
+						id: "mythicupgrades:jade_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1FC716EB150871BE"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38F1888686100AD5"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A19E2E8D680535D"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00F325A5AF6CF70E"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21CA0D21CA74E84F"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67EFD6602982C612"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "698643589E91F6D5"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45FBDFA1EBA89A4D"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67FF9333B7CF7967"
+					item: {
+						Count: 1
+						id: "mythicupgrades:aquamarine_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21BF9751DE455046"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A0BE8E7AD48C765"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CE3F86A2314E372"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52167FFE9D1CB090"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DE1BE5558C50502"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06201C599D6F5BBB"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1066989745E14480"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B9B4F78E21EDCC1"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35191E44D980725D"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D8EB2058CA94A47"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2EA8D6EB57451D44"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65BFE6A094C24898"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44F53DDCFA831BDD"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36AB021414BCF4F7"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47BA6C83EE0D96B5"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "225D3A50A5EA411B"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24B6C8D31795F636"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52E53286AD1826C2"
+					item: {
+						Count: 1
+						id: "mythicupgrades:ametrine_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "I Am Inevitable"
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["12D9F8448A9CA11B"]
+			description: ["Protects your noggin and your irrational fire-based decisions."]
+			id: "0ABA21DE5776F5A7"
+			rewards: [
+				{
+					id: "7DD2AAFC10E27019"
+					item: "minecraft:red_bed"
+					type: "item"
+				}
+				{
+					id: "5DE8D303B1880E1A"
+					item: "mythicupgrades:ruby_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "5719FDBDEC128DE6"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft a Ruby Helmet"
+			tasks: [{
+				id: "6EF8FF54F8561DD0"
+				item: {
+					Count: 1
+					id: "mythicupgrades:ruby_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Thinky Cap of Rage"
+			x: -9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0ABA21DE5776F5A7"]
+			description: ["Like a warm hug… from a lava monster."]
+			id: "2B066B8F3A1288F2"
+			rewards: [
+				{
+					count: 5
+					id: "59DC062E2550463A"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "1DB2877C4DAEB44D"
+					item: "mythicupgrades:ruby_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "44FCA44E4CEA761D"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft a Ruby Chestplate"
+			tasks: [{
+				id: "67B37F8ECC0FF6BD"
+				item: {
+					Count: 1
+					id: "mythicupgrades:ruby_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Heartburn Harness"
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2B066B8F3A1288F2"]
+			description: ["You didn’t start the fire—but your legs did."]
+			id: "20CF425D80FC8BAF"
+			rewards: [
+				{
+					id: "047108F03063D1CE"
+					item: "supplementaries:fire_pit"
+					type: "item"
+				}
+				{
+					id: "6553AD0EA2318D71"
+					item: "mythicupgrades:ruby_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "11A867881FD3DC23"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft Ruby Leggings"
+			tasks: [{
+				id: "157B35367D7D76E4"
+				item: {
+					Count: 1
+					id: "mythicupgrades:ruby_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Flamepants Dance"
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["20CF425D80FC8BAF"]
+			description: ["Walk like you're moonwalking on magma."]
+			id: "6E73DF6AD50E6E5E"
+			rewards: [
+				{
+					id: "71B1D63EDC8F7237"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_swiftness"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "351668486DA89F5C"
+					item: "mythicupgrades:ruby_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "7A35AA7A6FC82790"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft Ruby Boots"
+			tasks: [{
+				id: "4CEA31899483A49C"
+				item: {
+					Count: 1
+					id: "mythicupgrades:ruby_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Hot Feet Express"
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6E73DF6AD50E6E5E"]
+			description: ["Cuts through mobs and melons with equal passion."]
+			id: "636FB5F853B5F595"
+			rewards: [
+				{
+					id: "08F7B95B64DCC06A"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D70A39AADAFA5DE"
+					item: "mythicupgrades:ruby_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "0F271DA675845B47"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Ruby Sword"
+			tasks: [{
+				id: "1CEC516BEEFD9EA5"
+				item: {
+					Count: 1
+					id: "mythicupgrades:ruby_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Slice of Spice"
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["636FB5F853B5F595"]
+			description: ["Digs deep with red-hot style."]
+			id: "7E768E9D03D3F93E"
+			rewards: [
+				{
+					count: 8
+					id: "57AD92AD555110F3"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+				{
+					id: "3972846F4BF6EA84"
+					item: "mythicupgrades:ruby_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "0F3D2E36FBADDB16"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Ruby Pickaxe"
+			tasks: [{
+				id: "2B68189F06716921"
+				item: {
+					Count: 1
+					id: "mythicupgrades:ruby_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Mine-nificent"
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7E768E9D03D3F93E"]
+			description: ["The shovel you bring when you want revenge."]
+			id: "62A7FDC21E3B4621"
+			rewards: [
+				{
+					id: "24156C39F4E056B8"
+					item: "clutter:red_lamp"
+					type: "item"
+				}
+				{
+					id: "384E298895664E58"
+					item: "mythicupgrades:ruby_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "58AC35F3BD3B9984"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Ruby Shovel"
+			tasks: [{
+				id: "147E57F3B9A4A8DD"
+				item: {
+					Count: 1
+					id: "mythicupgrades:ruby_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Dirt Slayer 3000"
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["62A7FDC21E3B4621"]
+			description: ["Lumberjack-approved. Ent-disapproved."]
+			id: "21835A80132E3187"
+			rewards: [
+				{
+					id: "4A3C2C891964C7F3"
+					item: "vinery:apple_bag"
+					type: "item"
+				}
+				{
+					id: "4D86771888F3445F"
+					item: "mythicupgrades:ruby_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "77D8B7F538D22E24"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Ruby Axe"
+			tasks: [{
+				id: "3142911BB253F607"
+				item: {
+					Count: 1
+					id: "mythicupgrades:ruby_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Tree's Bane"
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["21835A80132E3187"]
+			description: ["Hot girl hoeing. But make it literal."]
+			id: "3FD6E04929ECE6F7"
+			rewards: [
+				{
+					id: "36764158C358B2BF"
+					item: "farmersdelight:beetroot_crate"
+					type: "item"
+				}
+				{
+					id: "1145B9638069491B"
+					item: "mythicupgrades:ruby_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "42F1068DE38B63CE"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft: Ruby Hoe"
+			tasks: [{
+				id: "60E0FEFCF5784795"
+				item: {
+					Count: 1
+					id: "mythicupgrades:ruby_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Till of the Thrill"
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6270DEBAC7E4258C"]
+			description: ["Who needs sunscreen when you’ve got this stylish dome piece?"]
+			id: "11D4B522E4E8C556"
+			rewards: [
+				{
+					id: "74EF96EE18D04982"
+					item: "minecraft:orange_bed"
+					type: "item"
+				}
+				{
+					id: "71ED2B79F29160DF"
+					item: "mythicupgrades:topaz_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "09B1B21CEB668266"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft a Topaz Helmet"
+			tasks: [{
+				id: "1DA95E24CFF948AD"
+				item: {
+					Count: 1
+					id: "mythicupgrades:topaz_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Sunblock 3000"
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["11D4B522E4E8C556"]
+			description: ["You’re not just built different—you’re fireproof."]
+			id: "06D1D09A180446C5"
+			rewards: [
+				{
+					count: 5
+					id: "548EDEEE469103D5"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "0E475D14EAFB27E2"
+					item: "mythicupgrades:topaz_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "2836622B347EBD48"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft a Topaz Chestplate"
+			tasks: [{
+				id: "0687E497CA4245FC"
+				item: {
+					Count: 1
+					id: "mythicupgrades:topaz_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Blazing Tanktop"
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["06D1D09A180446C5"]
+			description: ["When the thighs are thunder and also slightly glowing."]
+			id: "0AF265AE8801C97E"
+			rewards: [
+				{
+					id: "74BA1D615C5043F9"
+					item: "luphieclutteredmod:luphie_orange_cat_plant_pot"
+					type: "item"
+				}
+				{
+					id: "338D25B3A2CE450C"
+					item: "mythicupgrades:topaz_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "29DA08A0DD52E1E9"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft Topaz Leggings"
+			tasks: [{
+				id: "25F3D4DE82579C20"
+				item: {
+					Count: 1
+					id: "mythicupgrades:topaz_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Leg Day, Every Day"
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0AF265AE8801C97E"]
+			description: ["Warning: Wearing indoors may cause spontaneous s’mores."]
+			id: "490D6EAFA8696C9B"
+			rewards: [
+				{
+					id: "3F4956C53CA0FB93"
+					item: "luphieclutteredmod:luphie_orange_armchair"
+					type: "item"
+				}
+				{
+					id: "5B1B9D2EB26A6C65"
+					item: "mythicupgrades:topaz_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "2EB31FD889824A2A"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft Topaz Boots"
+			tasks: [{
+				id: "6C4F4971429C5BC1"
+				item: {
+					Count: 1
+					id: "mythicupgrades:topaz_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Toast Toes"
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["490D6EAFA8696C9B"]
+			description: ["Extra crispy slices. Mobs never stood a chance."]
+			id: "7DE7603B0B52803B"
+			rewards: [
+				{
+					count: 8
+					id: "4CCE44485874C5C0"
+					item: "lantern-mod:tinted_orange_lantern"
+					type: "item"
+				}
+				{
+					id: "300B61806E50D313"
+					item: "mythicupgrades:topaz_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "35078308D17C8774"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Topaz Sword"
+			tasks: [{
+				id: "2A573361E484DB7C"
+				item: {
+					Count: 1
+					id: "mythicupgrades:topaz_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "The Toast-Cutter"
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7DE7603B0B52803B"]
+			description: ["This pickaxe just vaped that ore."]
+			id: "1911189DA5AD0172"
+			rewards: [
+				{
+					count: 8
+					id: "66DA2AB0DD4ADC86"
+					item: "lamps:wall_umbrella_lamp_orange"
+					type: "item"
+				}
+				{
+					id: "57FBCE054C6977E9"
+					item: "mythicupgrades:topaz_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "77F201756230D1F8"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Topaz Pickaxe"
+			tasks: [{
+				id: "76125DEF3AFECF22"
+				item: {
+					Count: 1
+					id: "mythicupgrades:topaz_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Heat Digger"
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1911189DA5AD0172"]
+			description: ["For when you want to start a very &oangry&r beach."]
+			id: "4F1CA459A350C495"
+			rewards: [
+				{
+					count: 3
+					id: "525D85DF6FEF94CE"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					id: "45B3415F794CC844"
+					item: "mythicupgrades:topaz_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "1D1755E76DAE64DF"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Topaz Shovel"
+			tasks: [{
+				id: "07E1D9618C23A0A3"
+				item: {
+					Count: 1
+					id: "mythicupgrades:topaz_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Sand Scooper Supreme"
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4F1CA459A350C495"]
+			description: ["That tree never saw it coming. Mostly because it's already charcoal."]
+			id: "28A678F5EDF2833C"
+			rewards: [
+				{
+					count: 64
+					id: "09970452C5AC701E"
+					item: "supplementaries:ash_bricks"
+					type: "item"
+				}
+				{
+					id: "358774197259CAC9"
+					item: "mythicupgrades:topaz_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "1B5C9472248BB2A7"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Topaz Axe"
+			tasks: [{
+				id: "7B9A7687901CBAEC"
+				item: {
+					Count: 1
+					id: "mythicupgrades:topaz_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Ash Maker"
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["28A678F5EDF2833C"]
+			description: ["Plant crops by day, conquer by night."]
+			id: "48AE7CEB0DA19A9D"
+			rewards: [
+				{
+					count: 4
+					id: "5AA5F2E521E5CB52"
+					item: "minecraft:pumpkin"
+					type: "item"
+				}
+				{
+					id: "7318FECB2CD245D6"
+					item: "mythicupgrades:topaz_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "77446D6DA40ADF01"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft: Topaz Hoe"
+			tasks: [{
+				id: "74CDD5D3C065816C"
+				item: {
+					Count: 1
+					id: "mythicupgrades:topaz_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Solar Soil Stirrer"
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["71077E59CAA76852"]
+			description: ["It's leafy. It's light. It's your brain bucket now."]
+			id: "02E53A36375C303F"
+			rewards: [
+				{
+					id: "76C0CCE2962A7565"
+					item: "minecraft:lime_bed"
+					type: "item"
+				}
+				{
+					id: "26AC26B96DAF5D08"
+					item: "mythicupgrades:peridot_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "3E8A546215A869A6"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Peridot Helmet"
+			tasks: [{
+				id: "3B6DF0E8EAAA0A80"
+				item: {
+					Count: 1
+					id: "mythicupgrades:peridot_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Green Bean Helmet"
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["02E53A36375C303F"]
+			description: ["Feels like wearing a mossy blanket with confidence."]
+			id: "05541CC114E56B9C"
+			rewards: [
+				{
+					count: 5
+					id: "5DE582AF7075A20F"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "7DEAF57838AE0F8C"
+					item: "mythicupgrades:peridot_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "33CAE47345B261F4"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Peridot Chestplate"
+			tasks: [{
+				id: "75B20484852AA75C"
+				item: {
+					Count: 1
+					id: "mythicupgrades:peridot_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Hug of the Forest"
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["05541CC114E56B9C"]
+			description: ["Waddle through wilderness with plant-based pride."]
+			id: "3D5EB8C5756AD762"
+			rewards: [
+				{
+					count: 3
+					id: "7C365CF6180F72A4"
+					item: "biomeswevegone:green_apple"
+					type: "item"
+				}
+				{
+					id: "448DBA74C17A2716"
+					item: "mythicupgrades:peridot_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "19913AEC255132A0"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Peridot Leggings"
+			tasks: [{
+				id: "76FE885894BEB529"
+				item: {
+					Count: 1
+					id: "mythicupgrades:peridot_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Pants of the Grove"
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3D5EB8C5756AD762"]
+			description: ["Softer than clouds. Deadlier than roots."]
+			id: "40DF28D13A699BA7"
+			rewards: [
+				{
+					id: "12028814DE774355"
+					item: {
+						Count: 1
+						id: "gofish:slime_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F62C72211F6CD48"
+					item: "mythicupgrades:peridot_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "7E7161F8DC1192B1"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Peridot Boots"
+			tasks: [{
+				id: "3E2785539FBA7DDC"
+				item: {
+					Count: 1
+					id: "mythicupgrades:peridot_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Mossy Stompers"
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["40DF28D13A699BA7"]
+			description: ["It’s eco-friendly. Except for the mobs."]
+			id: "3A63DB007B378E72"
+			rewards: [
+				{
+					id: "207AF46BC3607953"
+					item: "biomeswevegone:green_enchanted_sapling"
+					type: "item"
+				}
+				{
+					id: "4A4755233F1AD28F"
+					item: "mythicupgrades:peridot_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "340F175D9DB843B0"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Peridot Sword"
+			tasks: [{
+				id: "49EF477FEC03B7A9"
+				item: {
+					Count: 1
+					id: "mythicupgrades:peridot_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Sapling Slayer"
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3A63DB007B378E72"]
+			description: ["Mine with the power of Mother Nature’s WiFi."]
+			id: "4681B7C15EC60983"
+			rewards: [
+				{
+					id: "17F50B6F98A40419"
+					item: "create:lime_seat"
+					type: "item"
+				}
+				{
+					id: "2AD2717DD001CDB2"
+					item: "mythicupgrades:peridot_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "13FF2233B33BCAB7"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Peridot Pickaxe"
+			tasks: [{
+				id: "45274B84288E8039"
+				item: {
+					Count: 1
+					id: "mythicupgrades:peridot_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Geo-Digger 9000"
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4681B7C15EC60983"]
+			description: ["For when you really need that dirt."]
+			id: "182F381B5C9C2E97"
+			rewards: [
+				{
+					count: 4
+					id: "0956C56CA0CC9337"
+					item: "farmersdelight:organic_compost"
+					type: "item"
+				}
+				{
+					id: "6D75A2CC3F444B0B"
+					item: "mythicupgrades:peridot_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "7380E82888CACF69"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Peridot Shovel"
+			tasks: [{
+				id: "1D35390D61BFA878"
+				item: {
+					Count: 1
+					id: "mythicupgrades:peridot_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Compost Collector"
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["182F381B5C9C2E97"]
+			description: ["Kind of a lumberjack. Mostly a menace."]
+			id: "411E9A34D3A40235"
+			rewards: [
+				{
+					count: 3
+					id: "33E7BFF422F8277B"
+					item: "biomeswevegone:yucca_fruit"
+					type: "item"
+				}
+				{
+					id: "1F4E9142F5735BF8"
+					item: "mythicupgrades:peridot_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "4D4AA7442B9E4D69"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Peridot Axe"
+			tasks: [{
+				id: "54E81D9F940629DE"
+				item: {
+					Count: 1
+					id: "mythicupgrades:peridot_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Tree Whacker"
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["411E9A34D3A40235"]
+			description: ["Raise your crops like they’re your children."]
+			id: "278B7FD0FEE2B2BC"
+			rewards: [
+				{
+					count: 4
+					id: "2F42990283EF1E59"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "23E9D48E255E0711"
+					item: "mythicupgrades:peridot_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "597EEC048562002A"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft: Peridot Hoe"
+			tasks: [{
+				id: "44121BD02BFB45C1"
+				item: {
+					Count: 1
+					id: "mythicupgrades:peridot_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Plant Parent Prodigy"
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["476E27F98F9231E9"]
+			description: ["Inner peace starts with outer armor."]
+			id: "0458DFDA9FBD23CE"
+			rewards: [
+				{
+					id: "028F2220522D37F2"
+					item: "minecraft:green_bed"
+					type: "item"
+				}
+				{
+					id: "57375C304BE042FC"
+					item: "mythicupgrades:jade_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "718CF24EAAB2582F"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Jade Helmet"
+			tasks: [{
+				id: "27E30B9B6FC24D6A"
+				item: {
+					Count: 1
+					id: "mythicupgrades:jade_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Zen Dome"
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0458DFDA9FBD23CE"]
+			description: ["Armor so calm, even creepers hesitate."]
+			id: "25E5517B11D3C7A7"
+			rewards: [
+				{
+					count: 5
+					id: "44F9AF3FB797BB89"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "3381976B4CF920E1"
+					item: "mythicupgrades:jade_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "27DBB52F2B0F90AF"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Jade Chestplate"
+			tasks: [{
+				id: "472726E1835371A2"
+				item: {
+					Count: 1
+					id: "mythicupgrades:jade_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Breath of Balance"
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["25E5517B11D3C7A7"]
+			description: ["Flowy, flexible, fighty."]
+			id: "5B7B1086BE15B56A"
+			rewards: [
+				{
+					id: "4499027BA91B329C"
+					item: "everycomp:bd/regions_unexplored/green_bioshroom_picture_frame"
+					type: "item"
+				}
+				{
+					id: "7746B1D55BF745D0"
+					item: "mythicupgrades:jade_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "5416CC5D119A4E29"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Jade Leggings"
+			tasks: [{
+				id: "7C744BF8C8536A3B"
+				item: {
+					Count: 1
+					id: "mythicupgrades:jade_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Serenity Slacks"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5B7B1086BE15B56A"]
+			description: ["Walk softly and carry a stylish outfit."]
+			id: "092F5E755FDEE211"
+			rewards: [
+				{
+					id: "6CD72CE0996785E9"
+					item: "create:green_seat"
+					type: "item"
+				}
+				{
+					id: "05F3F3F929C31DDE"
+					item: "mythicupgrades:jade_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "1885927D7F676266"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Jade Boots"
+			tasks: [{
+				id: "3039B26EEBF42898"
+				item: {
+					Count: 1
+					id: "mythicupgrades:jade_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Calm Kicks"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["092F5E755FDEE211"]
+			description: ["A weapon forged in silence and smacking things."]
+			id: "19D0D8D30C166A85"
+			rewards: [
+				{
+					id: "648F461B8127BFF1"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11B4F80EFBBA61BB"
+					item: "mythicupgrades:jade_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "06E5E85E2F7F383C"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Jade Sword"
+			tasks: [{
+				id: "016D52B7864D3DD0"
+				item: {
+					Count: 1
+					id: "mythicupgrades:jade_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Stillblade"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["19D0D8D30C166A85"]
+			description: ["Breathe in. Break block. Breathe out."]
+			id: "22134B1352BBBE95"
+			rewards: [
+				{
+					count: 64
+					id: "399A520A441BEE1E"
+					item: "betterend:sandy_jadestone_bricks"
+					type: "item"
+				}
+				{
+					id: "375FBD7D9C5ABC88"
+					item: "mythicupgrades:jade_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "57C3094FB9803054"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Jade Pickaxe"
+			tasks: [{
+				id: "468CC944D887CBA2"
+				item: {
+					Count: 1
+					id: "mythicupgrades:jade_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Mindful Miner"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["22134B1352BBBE95"]
+			description: ["Harvest like a monk. Or at least like a focused raccoon."]
+			id: "4BF3ABBB8CDF88D3"
+			rewards: [
+				{
+					count: 8
+					id: "7942E2D627E95C7D"
+					item: "minecraft:bamboo"
+					type: "item"
+				}
+				{
+					id: "230E30AAF5EA4C63"
+					item: "mythicupgrades:jade_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "050E8FA113B1EEA1"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Jade Shovel"
+			tasks: [{
+				id: "3C77CAC060BC0A84"
+				item: {
+					Count: 1
+					id: "mythicupgrades:jade_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Peaceful Scooper"
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4BF3ABBB8CDF88D3"]
+			description: ["Small trees, big axe."]
+			id: "6F5738C193B9D377"
+			rewards: [
+				{
+					count: 64
+					id: "45C576AF37C3581C"
+					item: "natures_spirit:sugi_leaves"
+					type: "item"
+				}
+				{
+					id: "27656ED7D09904F5"
+					item: "mythicupgrades:jade_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "339B905F88FB5B46"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Jade Axe"
+			tasks: [{
+				id: "7157E27C67776787"
+				item: {
+					Count: 1
+					id: "mythicupgrades:jade_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Bonsai Basher"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6F5738C193B9D377"]
+			description: ["Crops grow faster when you compliment them."]
+			id: "68676BD766B401F3"
+			rewards: [
+				{
+					count: 8
+					id: "1682F565BC3DBB38"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+				{
+					id: "6150D2FA5B4F4E6B"
+					item: "mythicupgrades:jade_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "1F2EC411ACEB3CE2"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft: Jade Hoe"
+			tasks: [{
+				id: "72DC49957D5B08BC"
+				item: {
+					Count: 1
+					id: "mythicupgrades:jade_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Crop Whisperer"
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["295232F0BA0F4064"]
+			description: ["It’s like a fishbowl for your thoughts."]
+			id: "3EB554D46D193624"
+			rewards: [
+				{
+					id: "39192DA00DB2D841"
+					item: "minecraft:cyan_bed"
+					type: "item"
+				}
+				{
+					id: "0A8D310BE133A782"
+					item: "mythicupgrades:aquamarine_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "2E4DC510304BE32B"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Aquamarine Helmet"
+			tasks: [{
+				id: "66620A7AB6FA8046"
+				item: {
+					Count: 1
+					id: "mythicupgrades:aquamarine_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Ocean Noggin"
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3EB554D46D193624"]
+			description: ["The sea's embrace... but armored."]
+			id: "7790BAB61CBA0C92"
+			rewards: [
+				{
+					count: 5
+					id: "09DDD72B322E3586"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "0731AAA1CA16F5A0"
+					item: "mythicupgrades:aquamarine_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "23FAFD8B3CF4F07B"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Aquamarine Chestplate"
+			tasks: [{
+				id: "3A9429C1D7D34DAF"
+				item: {
+					Count: 1
+					id: "mythicupgrades:aquamarine_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Tidecaller Tunic"
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7790BAB61CBA0C92"]
+			description: ["Stylish for wading, waltzing, or war."]
+			id: "66E68FB7FD8176AC"
+			rewards: [
+				{
+					id: "37E9C7CBD47DF83F"
+					item: {
+						Count: 1
+						id: "umbrellas:jellyfish_umbrella"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7BF9754063893CDD"
+					item: "mythicupgrades:aquamarine_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "2522A1091CF91E4D"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Aquamarine Leggings"
+			tasks: [{
+				id: "629495F4F44F59BE"
+				item: {
+					Count: 1
+					id: "mythicupgrades:aquamarine_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Wader Wears"
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["66E68FB7FD8176AC"]
+			description: ["When puddles aren’t obstacles—they're opportunities."]
+			id: "4130B51EF5BBC715"
+			rewards: [
+				{
+					id: "0E7637A7DCC9AC9F"
+					item: "perfectplushies:dolphin_plushie"
+					type: "item"
+				}
+				{
+					id: "494D0D01D146745A"
+					item: "mythicupgrades:aquamarine_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "710A3507CFC7C496"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Aquamarine Boots"
+			tasks: [{
+				id: "577D48F5AFB1B72F"
+				item: {
+					Count: 1
+					id: "mythicupgrades:aquamarine_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Splash Steppers"
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4130B51EF5BBC715"]
+			description: ["Cuts through mobs like a shark through kelp."]
+			id: "7D7F786A8A9B87D6"
+			rewards: [
+				{
+					id: "58EA72338C199B76"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:looting"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "009ECD4D4AEA6BFD"
+					item: "mythicupgrades:aquamarine_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "50C08DAB2909C228"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Aquamarine Sword"
+			tasks: [{
+				id: "508032068786286F"
+				item: {
+					Count: 1
+					id: "mythicupgrades:aquamarine_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Wavepiercer"
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7D7F786A8A9B87D6"]
+			description: ["Strong enough to dig Atlantis."]
+			id: "37BB86C6D319471E"
+			rewards: [
+				{
+					count: 64
+					id: "27D5FF02C8CF7519"
+					item: "betterend:smaragdant_crystal_bricks"
+					type: "item"
+				}
+				{
+					id: "1159C0B2E78E879C"
+					item: "mythicupgrades:aquamarine_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "17609F33EED89525"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Aquamarine Pickaxe"
+			tasks: [{
+				id: "5F0525C47BA823C8"
+				item: {
+					Count: 1
+					id: "mythicupgrades:aquamarine_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Deep Delver"
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["37BB86C6D319471E"]
+			description: ["The most hydrated shovel ever."]
+			id: "64F21477170B1CC3"
+			rewards: [
+				{
+					count: 8
+					id: "6AE8335F38E9EAFE"
+					item: "minecraft:prismarine_crystals"
+					type: "item"
+				}
+				{
+					id: "247E3CA02CF7364B"
+					item: "mythicupgrades:aquamarine_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "50E4ACD13E4DB28C"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Aquamarine Shovel"
+			tasks: [{
+				id: "54225C69AE54FD82"
+				item: {
+					Count: 1
+					id: "mythicupgrades:aquamarine_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Tide Turner"
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64F21477170B1CC3"]
+			description: ["Make it rain leaves."]
+			id: "14FD313471733389"
+			rewards: [
+				{
+					count: 3
+					id: "6608A8CD8F39406D"
+					item: "gofish:rainy_bass"
+					type: "item"
+				}
+				{
+					id: "0695B9134D1B139B"
+					item: "mythicupgrades:aquamarine_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "16E69E95432F9A08"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Aquamarine Axe"
+			tasks: [{
+				id: "509398ACB69BDA41"
+				item: {
+					Count: 1
+					id: "mythicupgrades:aquamarine_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Flood Feller"
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["14FD313471733389"]
+			description: ["Yeah. We said it."]
+			id: "477876B7B1288C12"
+			rewards: [
+				{
+					id: "2DDE5B6D9E2992E1"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+				{
+					id: "730DD5B2427D1D81"
+					item: "mythicupgrades:aquamarine_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "307E7A62146709F4"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft: Aquamarine Hoe"
+			tasks: [{
+				id: "7F10053700605808"
+				item: {
+					Count: 1
+					id: "mythicupgrades:aquamarine_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "The Wet Hoe"
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4CB174A57E3BA102"]
+			description: ["Cold head, cool thoughts."]
+			id: "0776D4906F3F9705"
+			rewards: [
+				{
+					count: 64
+					id: "40586D73AF30D6A3"
+					item: "minecraft:blue_bed"
+					type: "item"
+				}
+				{
+					id: "5450006FB4A69BE8"
+					item: "mythicupgrades:sapphire_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "45569DE6198B761F"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Sapphire Helmet"
+			tasks: [{
+				id: "4F55C6C21807D20E"
+				item: {
+					Count: 1
+					id: "mythicupgrades:sapphire_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Thinkin' Cap of Ice"
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0776D4906F3F9705"]
+			description: ["Chill vibes only (unless you're being attacked)."]
+			id: "584C0CFE0EE5D7DF"
+			rewards: [
+				{
+					count: 5
+					id: "218B9FE729EA3CB6"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "6C24BE45961B6E9E"
+					item: "mythicupgrades:sapphire_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "77A23B3FA332A025"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Sapphire Chestplate"
+			tasks: [{
+				id: "4672294A322891A0"
+				item: {
+					Count: 1
+					id: "mythicupgrades:sapphire_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Frostplate"
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["584C0CFE0EE5D7DF"]
+			description: ["Blue and bold. Fashionable fury."]
+			id: "10BE602A2A1B0695"
+			rewards: [
+				{
+					id: "6515349CBB2008A0"
+					item: "create:blue_seat"
+					type: "item"
+				}
+				{
+					id: "645810EAB82E0C72"
+					item: "mythicupgrades:sapphire_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "42F62379ECF09E4E"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Sapphire Leggings"
+			tasks: [{
+				id: "51A4D32A1ED5DC20"
+				item: {
+					Count: 1
+					id: "mythicupgrades:sapphire_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Jeans of Justice"
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["10BE602A2A1B0695"]
+			description: ["Ice skating? Monster stomping? Why not both."]
+			id: "16B4EB665591AE8F"
+			rewards: [
+				{
+					id: "0865834B7CF603CE"
+					item: "gofish:frosted_crate"
+					type: "item"
+				}
+				{
+					id: "67295090CA36A2A6"
+					item: "mythicupgrades:sapphire_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "78B479F97B52526D"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Sapphire Boots"
+			tasks: [{
+				id: "64900E116E04CC91"
+				item: {
+					Count: 1
+					id: "mythicupgrades:sapphire_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Slippy Kicks"
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["16B4EB665591AE8F"]
+			description: ["Strikes fast. Leaves frostbite."]
+			id: "5F0C2D0D4257E7ED"
+			rewards: [
+				{
+					id: "29B14923A9B1FCEC"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sweeping"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D0BA48239A8BF4E"
+					item: "mythicupgrades:sapphire_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "7AF502C8611D99AF"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Sapphire Sword"
+			tasks: [{
+				id: "1D225FE4DE4F0319"
+				item: {
+					Count: 1
+					id: "mythicupgrades:sapphire_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Blueslicer"
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F0C2D0D4257E7ED"]
+			description: ["Looks fancy. Hits hard."]
+			id: "5B4B5828199A68F3"
+			rewards: [
+				{
+					count: 64
+					id: "78E7DEDB0562DA50"
+					item: "chipped:lapis_block_bricks"
+					type: "item"
+				}
+				{
+					id: "76059A254766439E"
+					item: "mythicupgrades:sapphire_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "44A44BDA2C1531C4"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Sapphire Pickaxe"
+			tasks: [{
+				id: "54EF9CBC547450B2"
+				item: {
+					Count: 1
+					id: "mythicupgrades:sapphire_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Crystal Carver"
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5B4B5828199A68F3"]
+			description: ["For those extra chilly dirt emergencies."]
+			id: "466E0C02497728A8"
+			rewards: [
+				{
+					count: 16
+					id: "46E965D41A49124A"
+					item: "minecraft:snow_block"
+					type: "item"
+				}
+				{
+					id: "5CBDF996446EB4A3"
+					item: "mythicupgrades:sapphire_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "37F837537AA8BD87"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Sapphire Shovel"
+			tasks: [{
+				id: "15FE8218F3ADB7B9"
+				item: {
+					Count: 1
+					id: "mythicupgrades:sapphire_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Snow Scoop Supreme"
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["466E0C02497728A8"]
+			description: ["Winterized woodwork, coming through."]
+			id: "02EEAEB0799EC1E0"
+			rewards: [
+				{
+					count: 16
+					id: "35115C3289CD3C7F"
+					item: "minecraft:blue_ice"
+					type: "item"
+				}
+				{
+					id: "7C03A0A1C5C2109C"
+					item: "mythicupgrades:sapphire_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "7CCC4837A07F1623"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Sapphire Axe"
+			tasks: [{
+				id: "44A4B61A4B8B96CB"
+				item: {
+					Count: 1
+					id: "mythicupgrades:sapphire_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Icicle Chopper"
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["02EEAEB0799EC1E0"]
+			description: ["It doesn’t actually grow blueberries. But it feels like it might."]
+			id: "4B012B1018B07356"
+			rewards: [
+				{
+					id: "4064B6245EC2FE64"
+					item: "biomeswevegone:blueberry_pie"
+					type: "item"
+				}
+				{
+					id: "4D5200D78802588E"
+					item: "mythicupgrades:sapphire_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "53A1C23B7835A266"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "19510ECEE3383519"
+				item: {
+					Count: 1
+					id: "mythicupgrades:sapphire_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft: Sapphire Hoe"
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7843CFA939AE85CB"]
+			description: ["Protects your head and your chaotic decisions."]
+			id: "291CAD29D21D7662"
+			rewards: [
+				{
+					id: "6D2467C707009C00"
+					item: "minecraft:purple_bed"
+					type: "item"
+				}
+				{
+					id: "75B6AFE1D474CBD1"
+					item: "mythicupgrades:ametrine_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "008F9DFB71969323"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Ametrine Helmet"
+			tasks: [{
+				id: "7EDAAEA617225215"
+				item: {
+					Count: 1
+					id: "mythicupgrades:ametrine_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Grape Brain Dome"
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["291CAD29D21D7662"]
+			description: ["Stylish, mysterious, slightly cursed."]
+			id: "228080FD237A776E"
+			rewards: [
+				{
+					count: 5
+					id: "0D8B840E3F27326E"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "21484071B42C5A80"
+					item: "mythicupgrades:ametrine_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "0BA8296D0F4472BF"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Ametrine Chestplate"
+			tasks: [{
+				id: "4A92D4CF84FDBF17"
+				item: {
+					Count: 1
+					id: "mythicupgrades:ametrine_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Chaotic Cozyplate"
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["228080FD237A776E"]
+			description: ["Are they enchanted? Are they pants? Yes."]
+			id: "45A91018AA904E7F"
+			rewards: [
+				{
+					id: "10C096C44C0E19CF"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:swift_sneak"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "724F2E845567D6A3"
+					item: "mythicupgrades:ametrine_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "208CF36BA02F89DA"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Ametrine Leggings"
+			tasks: [{
+				id: "74EC1C0F5BC4059E"
+				item: {
+					Count: 1
+					id: "mythicupgrades:ametrine_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Mystery Pants"
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["45A91018AA904E7F"]
+			description: ["Like moon shoes, but magical and dangerous."]
+			id: "5FA1EFB758A950E6"
+			rewards: [
+				{
+					id: "3E0DBBA0D2E4E1ED"
+					item: "luphieclutteredmod:luphie_glowing_moon"
+					type: "item"
+				}
+				{
+					id: "6969E02447A477DA"
+					item: "mythicupgrades:ametrine_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "2DC2D206806F88C1"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Ametrine Boots"
+			tasks: [{
+				id: "5B7DEFA6C7ED1239"
+				item: {
+					Count: 1
+					id: "mythicupgrades:ametrine_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Void Walkers"
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5FA1EFB758A950E6"]
+			description: ["Glows with the power of a thousand spilled smoothies."]
+			id: "5B5B6B6A6FB2C43F"
+			rewards: [
+				{
+					id: "7F0D133083E00D44"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:mending"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "773947C35DFF34B3"
+					item: "mythicupgrades:ametrine_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "55D0FC3FC353D3F3"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Ametrine Sword"
+			tasks: [{
+				id: "080D1EAF800D39E3"
+				item: {
+					Count: 1
+					id: "mythicupgrades:ametrine_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Amethyst Anger Stick"
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5B5B6B6A6FB2C43F"]
+			description: ["This pickaxe hums. And it judges you."]
+			id: "04899D9C40EE95D4"
+			rewards: [
+				{
+					count: 64
+					id: "1AF95871D9AB6CB0"
+					item: "natures_spirit:purple_kaolin"
+					type: "item"
+				}
+				{
+					id: "2C881CF5FCCB4EC6"
+					item: "mythicupgrades:ametrine_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "6BC1CAE265397742"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Ametrine Pickaxe"
+			tasks: [{
+				id: "2F558198E52B22FC"
+				item: {
+					Count: 1
+					id: "mythicupgrades:ametrine_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Crystal Drillbit"
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["04899D9C40EE95D4"]
+			description: ["You dig. It sparkles. Everyone wins."]
+			id: "5582AB640265BDD0"
+			rewards: [
+				{
+					count: 3
+					id: "5A45D05F18699177"
+					item: "minecraft:amethyst_cluster"
+					type: "item"
+				}
+				{
+					id: "369FDDC8C18D466F"
+					item: "mythicupgrades:ametrine_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "20F10E1C7C8D3BF3"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Ametrine Shovel"
+			tasks: [{
+				id: "05800DEB920971B9"
+				item: {
+					Count: 1
+					id: "mythicupgrades:ametrine_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Diggy McMagic"
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5582AB640265BDD0"]
+			description: ["When you cut down trees, and also time."]
+			id: "11F1503E070AFEED"
+			rewards: [
+				{
+					id: "51BCF3BA85C4AD8A"
+					item: {
+						Count: 1
+						id: "wildernature:stylin_purple_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BB48EA3A73309A7"
+					item: "mythicupgrades:ametrine_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "3E16B631705D7C51"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Craft: Ametrine Axe"
+			tasks: [{
+				id: "4C76E3AC3DB83B1B"
+				item: {
+					Count: 1
+					id: "mythicupgrades:ametrine_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Glow Chop"
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["11F1503E070AFEED"]
+			description: ["Good for planting crops and summoning cosmic entities."]
+			id: "7040B6B6C209C001"
+			rewards: [
+				{
+					count: 3
+					id: "663F2AE1607E2A99"
+					item: "spelunkery:purple_glowstick"
+					type: "item"
+				}
+				{
+					id: "7640B8A8463747E7"
+					item: "mythicupgrades:ametrine_crystal_shard"
+					type: "item"
+				}
+				{
+					id: "5532A5F5051C88AA"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft: Ametrine Hoe"
+			tasks: [{
+				id: "55FBE4413D3CE8F7"
+				item: {
+					Count: 1
+					id: "mythicupgrades:ametrine_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Chaos Cultivator"
+			x: 8.5d
+			y: 3.5d
+		}
+	]
+	title: "Forged Fables"
+}

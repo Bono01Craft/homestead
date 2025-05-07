@@ -1,0 +1,16 @@
+{
+  "biomeRegionWeight": 4,
+  "enableStrawberryFields": true,
+  "enableLavenderMeadow": true,
+  "enableBambooBlossomForest": true,
+  "enableAutumnalGrove": true,
+  "enableLushOasis": true,
+  "enableLagoon": true,
+  "enableTropics": true,
+  "rainbowChickenBiomeSpawns": [
+    "minecraft:plains",
+    "minecraft:forest",
+    "minecraft:flower_forest"
+  ],
+  "rainbowChickenSpawnChance": 6
+}

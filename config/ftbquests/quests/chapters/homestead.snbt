@@ -1,0 +1,216 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "homestead"
+	group: ""
+	id: "1B9668460B819C10"
+	images: [
+		{
+			height: 15.0d
+			image: "ftbquests:textures/homestead/homestead_quest_bg.png"
+			rotation: 0.0d
+			width: 30.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 4.0d
+			image: "ftbquests:textures/homestead/homestead_text_export.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 0.0d
+			y: -4.0d
+		}
+	]
+	order_index: 20
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&l📦 What’s Inside the Homestead Mod?&r"
+				""
+				"The Homestead modpack proudly features its very own custom mod — the Homestead Mod — carefully crafted by the CozyCord team to enhance your gameplay with unique content you won’t find anywhere else."
+				""
+				"This mod includes:"
+				""
+				"&l🐾 Custom Mobs&r – Original creatures designed to add life, challenge, and charm to your world."
+				""
+				"&l🎒 Exclusive Items&r – A block that has special abilities, custom made food for taming the custom mobs and more!"
+				""
+				"&l🐎 Mounts and Mob Integration&r – Rideable creatures and companions, some of which even interact with mobs from other mods for an immersive cross-mod experience."
+				""
+				"This questline will guide you through every mob, every item, and all the hidden details within the Homestead Mod. Whether you’re collecting, crafting, or befriending, you’ll get to know these features inside and out."
+			]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "patchouli:welcome"
+				}
+			}
+			id: "1CDC7463A908FC2B"
+			shape: "diamond"
+			size: 3.0d
+			tasks: [{
+				id: "5DC5561350C7C74F"
+				title: "Homestead Custom Mod"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The &6&lGolden Leaf&r&r is a rare and mystical item infused with the life force of the land itself. It’s more than just a pretty collectible — it’s a powerful artifact with three distinct uses that make it a treasure for any traveler:"
+				""
+				"&l🌿 Passive Regeneration (Carry It!)&r"
+				"Simply keep it in your inventory, and you’ll be blessed with infinite health regeneration. As long as it stays with you, your wounds will slowly mend over time — no need for potions or food."
+				""
+				"&l🍎 Emergency Healing (Right Click - 3 Charges)&r"
+				"The leaf holds three charges of golden energy. Right-click to use one, instantly restoring your health and saturation — like a magical golden apple, but swifter and more nourishing. Use wisely in moments of danger!"
+				""
+				"&l🕯 Crafting Ingredient – Tranquil Lantern&r"
+				"The Golden Leaf also plays a vital role in crafting the Tranquil Lantern, an item shrouded in mystery and peace. Its glow carries the calming energy of the leaf, making it a key part of your homestead's serenity."
+			]
+			icon: {
+				Count: 1
+				id: "homestead:golden_leaf"
+				tag: { }
+			}
+			id: "41210CFB89986F2E"
+			tasks: [{
+				id: "1D3EEF5EB344305E"
+				title: "Golden Lead"
+				type: "checkmark"
+			}]
+			title: "Golden Leaf"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The &a&lTranquil Lantern&r&r isn’t just another light source — it’s a beacon of calm, crafted with care and ancient magic. Infused with the power of the &6&lGolden Leaf&r&r, this lantern radiates a peaceful aura that can change the course of your adventures."
+				""
+				"Here’s what it does:"
+				""
+				"&l🌟 Area of Tranquility (25 Block Radius)&r"
+				"When placed, the Tranquil Lantern emits a gentle, ambient light like a normal lantern. But don’t let its soft glow fool you — it completely disables all hostile mobs within a 25 block radius."
+				"While inside the lantern’s protection, you’ll notice glowing white orbs circling you — a visual indicator of the lantern’s safe zone."
+				""
+				"&l💖 Regenerative Grace (Stand On It!)&r"
+				"Stand directly on top of the lantern, and you’ll be blessed with Regeneration for 5 seconds, giving you just the boost you need when resting or recovering."
+				""
+				"&l🔧 Crafting Recipe&r"
+				"Crafting the Tranquil Lantern is simple, but sacred:"
+				"➤ Place 1 Golden Leaf in the center of a crafting table, and surround it with 8 regular lanterns."
+				"➤ The result? A tool of serenity to bring light and safety to even the darkest corners of the world."
+			]
+			icon: "homestead:tranquil_lantern"
+			id: "3A10EB162A3129B6"
+			tasks: [{
+				id: "4811B0D030337DBE"
+				title: "Tranquil Lantern"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"&l🐾 New Friends of the Forest&r"
+				"The Homestead Mod brings life to the wilderness with three brand-new mobs, each offering companionship, utility, and a touch of magic. These creatures can be found in specific biomes and tamed to accompany you on your journey!"
+				""
+				"&2&l🌿 &rFernling&r"
+				"A shy but helpful forest creature."
+				""
+				"&lWhere to Find&r: Forests, Lush Caves, and the Meadow biome."
+				""
+				"&lHow to Tame&r: Feed it Cozy Crumbs!"
+				""
+				"&lBehavior&r:"
+				""
+				"• Follows you loyally once tamed."
+				""
+				"• Right-click to toggle sleep mode — perfect for keeping it in one spot."
+				""
+				"• Occasionally bone meals the ground nearby, encouraging plants to grow."
+				""
+				"Perfect for cozy gardening companions!"
+				""
+				"&c&l🍄 &rMushling&r"
+				"A glowing, fungal friend from the dark and damp."
+				""
+				"&lWhere to Find&r: Dark Forest, Mushroom Fields, and Lush Caves."
+				""
+				"&lHow to Tame&r: Feed it Cozy Crumbs!"
+				""
+				"&lBehavior&r:"
+				""
+				"• Follows you around like a glowing pet."
+				""
+				"• Right-click to toggle sleep mode."
+				""
+				"• Glows at night, acting as a mobile light source — ideal for cave diving or late-night walks."
+				""
+				"&b&l🦌&r Mystical Elk&r"
+				"A majestic mount from the snowy woods."
+				""
+				"&lWhere to Find&r: Forests, Taigas, Snowy Biomes, and the Meadow biome."
+				""
+				"&lHow to Tame&r: Offer it Glow Berries."
+				""
+				"&lBehavior&r:"
+				""
+				"• Once tamed, you can saddle the elk and ride it like a horse."
+				""
+				"• A great alternative to traditional mounts, and it looks way cooler."
+			]
+			icon: "homestead:mushling_spawner"
+			id: "2BCDA4053CC2E1C2"
+			tasks: [{
+				id: "0A7CD97BE2A34270"
+				title: "Mobs"
+				type: "checkmark"
+			}]
+			title: "Custom Mobs"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&6&l🍪 &rCozy Crumbs – A Taste of Home&r"
+				"Cozy Crumbs are a sweet, earthy treat that bring warmth and comfort to the creatures of the Homestead world. Crafted with love (and a little forest magic), these snacks are the key to befriending two of the mod’s gentlest companions."
+				""
+				"&n&l🧺 How to Craft Cozy Crumbs:&r&r"
+				"In your crafting table, combine:"
+				""
+				"&6🍯 1 Honey Bottle&r"
+				""
+				"&e🌾 1 Wheat&r"
+				""
+				"&c🍄 1 Red Mushroom&r"
+				""
+				"These ingredients blend sweetness, nourishment, and a touch of forest flavor — irresistible to certain woodland creatures!"
+				""
+				"&l🐾 What They’re For:&r"
+				"Cozy Crumbs are used to tame the following mobs:"
+				""
+				"&2🌿 Fernlings&r – found in forests, meadows, and lush caves"
+				""
+				"&c🍄 Mushlings&r – found in dark forests, mushroom fields, and lush caves"
+				""
+				"Once tamed with Cozy Crumbs, these companions will follow you, offer unique abilities, and bring a cozy charm to your adventures."
+			]
+			icon: "homestead:cozy_crumbs"
+			id: "2689B2FD34CD485B"
+			tasks: [{
+				id: "3AB82C6C8469DE23"
+				title: "Cozy Crumbs"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+	]
+	title: "Homestead Mod Tips"
+}

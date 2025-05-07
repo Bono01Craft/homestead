@@ -1,0 +1,17 @@
+type = customizablemenus
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+net.minecraft.class_458 {
+}
+
+net.minecraft.class_433 {
+}
+
+net.mehvahdjukaar.amendments.client.gui.LecternBookEditScreen {
+}
+
+net.minecraft.class_442 {
+}
+

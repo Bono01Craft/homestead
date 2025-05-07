@@ -1,0 +1,123 @@
+{
+  "default_packs": [
+    "vanilla",
+    "fabric",
+    "Moonlight Mods Dynamic Assets",
+    "subtle_effects:biome_color_water_particles",
+    "minecraft:supporteatinganimation",
+    "file/Fancy_Beds-v3.4.zip",
+    "natures_spirit:emissive_ores_compatibility",
+    "spelunkery:better_vanilla_gems",
+    "file/cubic-sun-moon-v1.8.1a.zip",
+    "continuity:default",
+    "continuity:glass_pane_culling_fix",
+    "file/Icon_Xaero's_1.2_HF.zip",
+    "file/Stay_True_1.20.zip",
+    "file/Better_Lanterns_v1.2(mc-1.20.1).zip",
+    "file/Homestead Essentials"
+  ],
+  "default_overrides": {
+    "force_compatible": true
+  },
+  "pack_overrides": {
+    "continuity:default": {
+      "hidden": true
+    },
+    "Moonlight Mods Dynamic Assets": {
+      "hidden": true
+    },
+    "continuity:glass_pane_culling_fix": {
+      "hidden": true
+    },
+    "file/Icon_Xaero's_1.2_HF.zip": {
+      "hidden": true
+    },
+    "high_contrast": {
+      "hidden": true
+    },
+    "programmer_art": {
+      "hidden": true
+    },
+    "vinery:bushy_leaves": {
+      "hidden": true
+    },
+    "mythicupgrades:32x": {
+      "hidden": true
+    },
+    "elytratrims:legacy": {
+      "hidden": true
+    },
+    "natures_spirit:plank_consistency": {
+      "hidden": true
+    },
+    "supplementaries:darker_ropes": {
+      "hidden": true
+    },
+    "controlify:legacy_console": {
+      "hidden": true
+    },
+    "bronze:bronze_ctm": {
+      "hidden": true
+    },
+    "classic_icons": {
+      "hidden": true
+    },
+    "white_icons": {
+      "hidden": true
+    },
+    "black_icons": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Better_Dungeons_v5.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Chef's_Delight_v3.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Farmers_Delight_v6.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-VillagersPlus_v3.zip": {
+      "hidden": true
+    },
+    "file/lootr-betterend-compatibility-data-pack.zip": {
+      "hidden": true
+    },
+    "file/tokimi.-Tokimi-emojiful-datapack.zip": {
+      "hidden": true
+    },
+    "file/Stay_True_1.20.zip": {
+      "hidden": true
+    },
+    "file/Better_Lanterns_v1.2(mc-1.20.1).zip": {
+      "hidden": true
+    },
+    "file/Homestead Essentials": {
+      "hidden": true
+    },
+    "file/Homestead Lunar Events.zip": {
+      "hidden": true
+    },
+    "subtle_effects:biome_color_water_particles": {
+      "hidden": true
+    },
+    "minecraft:supporteatinganimation": {
+      "hidden": true
+    },
+    "file/Fancy_Beds-v3.4.zip": {
+      "hidden": true
+    },
+    "file/Tokimis-Terrain-v1.0.zip": {
+      "hidden": true
+    },
+    "natures_spirit:emissive_ores_compatibility": {
+      "hidden": true
+    },
+    "spelunkery:better_vanilla_gems": {
+      "hidden": true
+    },
+    "file/cubic-sun-moon-v1.8.1a.zip": {
+      "hidden": true
+    }
+  }
+}
