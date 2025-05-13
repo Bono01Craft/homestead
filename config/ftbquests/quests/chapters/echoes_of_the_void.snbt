@@ -39,12 +39,12 @@
 			y: -0.8392857142857082d
 		}
 		{
-			height: 1.0d
-			image: "betterend:textures/minimap/entities/end_slime.png"
+			height: 0.5d
+			image: "supplementaries:textures/map_marker/end_crystal.png"
 			rotation: 0.0d
-			width: 1.0d
-			x: -5.785714285714285d
-			y: -1.767857142857146d
+			width: 0.5d
+			x: -5.571428571428569d
+			y: -1.7261904761904745d
 		}
 		{
 			height: 3.0d
@@ -210,15 +210,37 @@
 		}
 		{
 			dependencies: ["71E074AFC26F3300"]
-			description: ["Travel through the strange and beautiful biomes added by &5&lBetter End&r&r. Each one is a new world."]
+			description: [
+				"The End has more than just dragons and danger—it has dinner."
+				"With the End Knife, you can carve rare meats, and the End Stove lets you cook them to perfection in purple, void-touched style."
+				"Slice, sizzle, and serve with interdimensional flair!"
+			]
 			hide_dependency_lines: true
 			id: "020CCFA85761CC69"
 			rewards: [
 				{
-					id: "6DDFCE1882977B56"
+					id: "4A04808D50E21B3A"
+					item: "minecraft:chorus_fruit"
+					type: "item"
+				}
+				{
+					id: "49358D1C0202CB71"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "7133CCA08DCDD625"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Craft the End Knife and End Stove from Ends Delight."
+			tasks: [
+				{
+					id: "63B713A2AA4D87EE"
 					item: {
 						Count: 1
-						id: "betterend:crystalite_boots"
+						id: "ends_delight:end_stone_knife"
 						tag: {
 							Damage: 0
 						}
@@ -226,48 +248,55 @@
 					type: "item"
 				}
 				{
-					id: "17633A4F42820FB9"
-					type: "xp"
-					xp: 50
+					id: "382AF810D9DE4B12"
+					item: "ends_delight:end_stove"
+					type: "item"
 				}
 			]
-			subtitle: "Visit all Better End biomes."
-			tasks: [{
-				advancement: "betterend:all_the_biomes"
-				criterion: ""
-				id: "1EB2A534AC1826ED"
-				type: "advancement"
-			}]
-			title: "Alien Landscapes"
+			title: "A Taste Beyond the End"
 			x: 5.357142857142854d
 			y: -7.053571428571427d
 		}
 		{
 			dependencies: ["71E074AFC26F3300"]
-			description: ["It's Just Iron."]
+			description: [
+				"The End teaches you to value a second chance."
+				"Craft a Respawn Anchor—a block normally for the Nether—by combining Crying Obsidian (often found in Bastions) with Glowstone. It’s a safety net, forged across dimensions.It's Just Iron."
+			]
 			hide_dependency_lines: true
 			id: "5FC6F8D6CC85DB8E"
 			rewards: [
 				{
-					count: 16
-					id: "0B41465323AD6041"
-					item: "minecraft:iron_nugget"
+					id: "1B7DAD2A37D2CCE2"
+					item: {
+						Count: 1
+						id: "spelunkery:portal_fluid_bottle"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
-					id: "5D0CB7271395B19E"
+					id: "5DF2286A71FEE91D"
+					item: {
+						Count: 1
+						id: "spelunkery:portal_fluid_bucket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "73F6BDEC5796F4B8"
 					type: "xp"
-					xp: 25
+					xp: 50
 				}
 			]
-			subtitle: "Find Thallasium Ore and obtain 16."
+			subtitle: "Craft and place a Respawn Anchor using Crying Obsidian and Glowstone."
 			tasks: [{
-				count: 16L
-				id: "3663C78FCCF03CC3"
-				item: { Count: 16, id: "betterend:thallasium_raw" }
+				id: "4F4F3D0768A37EF6"
+				item: "minecraft:respawn_anchor"
 				type: "item"
 			}]
-			title: "Thallasium Traces"
+			title: "Anchored in the End"
 			x: -8.428571428571423d
 			y: -2.375d
 		}

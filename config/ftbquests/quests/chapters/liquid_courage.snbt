@@ -323,7 +323,7 @@
 				item: "alcocraftplus:ice_beer"
 				type: "item"
 			}]
-			subtitle: "Brew Ice Beer with: Hop, Dry Seeds, Snowball, Ice."
+			subtitle: "Brew Ice Beer with: Hop, Dry Seeds, Snowball, Packed Ice."
 			tasks: [{
 				id: "3B06D1475F16A302"
 				item: "alcocraftplus:ice_beer"
@@ -782,7 +782,7 @@
 				item: "brewery:beer_wheat"
 				type: "item"
 			}]
-			subtitle: "Brew Wheat Beer with 2x Dried Wheat and 1x Hop."
+			subtitle: "Brew Wheat Beer with 1x Dried Wheat 1 Yeast and 1x Hops."
 			tasks: [{
 				id: "67DDE92B86E9C4D5"
 				item: "brewery:beer_wheat"
@@ -802,7 +802,7 @@
 				item: "brewery:beer_barley"
 				type: "item"
 			}]
-			subtitle: "Brew Barley Beer with 2x Dried Barley and 1x Hop."
+			subtitle: "Brew Barley Beer with 1x Dried Barley 1x Yeast and 1x Hops."
 			tasks: [{
 				id: "7F8A6BB2CB2AAB82"
 				item: "brewery:beer_barley"
@@ -822,7 +822,7 @@
 				item: "brewery:beer_hops"
 				type: "item"
 			}]
-			subtitle: "Brew Hops Beer with 3x Hop."
+			subtitle: "Brew Hops Beer with 1x Yeast and 2x Hops."
 			tasks: [{
 				id: "7F26CFC391C90BAE"
 				item: "brewery:beer_hops"
@@ -882,7 +882,7 @@
 				item: "brewery:beer_haley"
 				type: "item"
 			}]
-			subtitle: "Brew Haley Beer with Popping Chorus Fruit and Hop."
+			subtitle: "Brew Haley Beer with 1x Popping Chorus Fruit 1x Yeast and 1x Hops."
 			tasks: [{
 				id: "7447396BED4EC6C6"
 				item: "brewery:beer_haley"

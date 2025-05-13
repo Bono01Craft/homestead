@@ -142,7 +142,7 @@
 				count: 32L
 				id: "1D6635BBC34F52BA"
 				item: "minecraft:stick"
-				only_from_crafting: true
+				only_from_crafting: false
 				type: "item"
 			}]
 			title: "Stick It Together"
@@ -212,6 +212,7 @@
 							Damage: 0
 						}
 					}
+					only_from_crafting: false
 					type: "item"
 				}
 				{
@@ -223,6 +224,7 @@
 							Damage: 0
 						}
 					}
+					only_from_crafting: false
 					type: "item"
 				}
 				{
@@ -234,6 +236,7 @@
 							Damage: 0
 						}
 					}
+					only_from_crafting: false
 					type: "item"
 				}
 				{
@@ -245,6 +248,7 @@
 							Damage: 0
 						}
 					}
+					only_from_crafting: false
 					type: "item"
 				}
 				{
@@ -256,6 +260,7 @@
 							Damage: 0
 						}
 					}
+					only_from_crafting: false
 					type: "item"
 				}
 			]
@@ -373,7 +378,7 @@
 						Damage: 0
 					}
 				}
-				only_from_crafting: true
+				only_from_crafting: false
 				type: "item"
 			}]
 			title: "Tool Up"
@@ -481,7 +486,7 @@
 					value: 1
 				}
 				{
-					id: "4F45E2715C99382C"
+					id: "75A01CEDEBE224B9"
 					item: {
 						Count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -489,8 +494,7 @@
 							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:beds)"
 						}
 					}
-					only_from_crafting: true
-					title: "Craft Any #minecraft:beds"
+					title: "Acquire 1x any #minecraft:beds"
 					type: "item"
 				}
 			]
@@ -531,7 +535,7 @@
 							Damage: 0
 						}
 					}
-					only_from_crafting: true
+					only_from_crafting: false
 					type: "item"
 				}
 				{
@@ -543,7 +547,7 @@
 							Damage: 0
 						}
 					}
-					only_from_crafting: true
+					only_from_crafting: false
 					type: "item"
 				}
 				{
@@ -555,7 +559,7 @@
 							Damage: 0
 						}
 					}
-					only_from_crafting: true
+					only_from_crafting: false
 					type: "item"
 				}
 				{
@@ -567,7 +571,7 @@
 							Damage: 0
 						}
 					}
-					only_from_crafting: true
+					only_from_crafting: false
 					type: "item"
 				}
 			]
@@ -644,7 +648,7 @@
 			rewards: [
 				{
 					id: "55CE4DFF4249703D"
-					item: "uncraftingtable76:uncraftingtable"
+					item: "sophisticatedbackpacks:crafting_upgrade"
 					type: "item"
 				}
 				{
@@ -763,7 +767,7 @@
 					replace: false
 					replaced: "minecraft:air"
 					type: "questsadditions:place"
-					value: 20L
+					value: 10L
 				}
 				{
 					block: "minecraft:barrel"
@@ -772,7 +776,7 @@
 					replace: false
 					replaced: "minecraft:air"
 					type: "questsadditions:place"
-					value: 10L
+					value: 4L
 				}
 				{
 					block: "minecraft:crafting_table"
@@ -781,7 +785,7 @@
 					replace: false
 					replaced: "minecraft:air"
 					type: "questsadditions:place"
-					value: 5L
+					value: 2L
 				}
 				{
 					block: "minecraft:furnace"
@@ -790,7 +794,7 @@
 					replace: false
 					replaced: "minecraft:air"
 					type: "questsadditions:place"
-					value: 16L
+					value: 4L
 				}
 				{
 					block: "minecraft:blast_furnace"
@@ -836,7 +840,7 @@
 				{
 					id: "0EF6749A7E43359A"
 					item: "spelunkery:diamond_grindstone"
-					only_from_crafting: true
+					only_from_crafting: false
 					type: "item"
 				}
 				{
@@ -892,7 +896,7 @@
 			description: [
 				"So tough, even your pickaxe cried a little. You earned these."
 				""
-				"&oObsidian Ingots are made by smelting Obsidian in a Furnace.&r"
+				"&oObsidian Ingots are made by smelting Obsidian in a Blast Furnace.&r"
 			]
 			id: "787A0DD0608841B5"
 			rewards: [
@@ -980,7 +984,7 @@
 							Damage: 0
 						}
 					}
-					only_from_crafting: true
+					only_from_crafting: false
 					type: "item"
 				}
 				{
@@ -992,7 +996,7 @@
 							Damage: 0
 						}
 					}
-					only_from_crafting: true
+					only_from_crafting: false
 					type: "item"
 				}
 				{
@@ -1004,7 +1008,7 @@
 							Damage: 0
 						}
 					}
-					only_from_crafting: true
+					only_from_crafting: false
 					type: "item"
 				}
 				{
@@ -1016,7 +1020,7 @@
 							Damage: 0
 						}
 					}
-					only_from_crafting: true
+					only_from_crafting: false
 					type: "item"
 				}
 				{
@@ -1028,7 +1032,7 @@
 							Damage: 0
 						}
 					}
-					only_from_crafting: true
+					only_from_crafting: false
 					type: "item"
 				}
 				{
@@ -1040,7 +1044,7 @@
 							Damage: 0
 						}
 					}
-					only_from_crafting: true
+					only_from_crafting: false
 					type: "item"
 				}
 			]
@@ -1084,14 +1088,14 @@
 				{
 					id: "277771025CF9244E"
 					item: "minecraft:enchanting_table"
-					only_from_crafting: true
+					only_from_crafting: false
 					type: "item"
 				}
 				{
 					count: 15L
 					id: "0D9E7922F4488B44"
 					item: { Count: 15, id: "minecraft:bookshelf" }
-					only_from_crafting: true
+					only_from_crafting: false
 					type: "item"
 				}
 			]
@@ -1138,6 +1142,7 @@
 					count: 3L
 					id: "1F524ED7F44DAC03"
 					item: "minecraft:cauldron"
+					only_from_crafting: false
 					type: "item"
 				}
 				{

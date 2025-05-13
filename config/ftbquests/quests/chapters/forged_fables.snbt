@@ -221,11 +221,18 @@
 			]
 			shape: "diamond"
 			subtitle: "Mine Ametrine Ore. Find an Ametrine Upgrade Template."
-			tasks: [{
-				id: "4FC0C133126EF4E0"
-				item: "mythicupgrades:ametrine"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4FC0C133126EF4E0"
+					item: "mythicupgrades:ametrine"
+					type: "item"
+				}
+				{
+					id: "5687C7DDD2C5375C"
+					item: "mythicupgrades:ametrine_upgrade_smithing_template"
+					type: "item"
+				}
+			]
 			title: "Violet Violence"
 			x: 8.5d
 			y: -5.5d

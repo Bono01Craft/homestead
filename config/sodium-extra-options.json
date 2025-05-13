@@ -26,7 +26,8 @@
       "supplementaries:splashing_liquid": true,
       "minecraft:splash": true,
       "minecraft:falling_water": true,
-      "effective:waterfall_cloud": false
+      "effective:waterfall_cloud": false,
+      "minecraft:end_rod": false
     }
   },
   "detail_settings": {
@@ -65,11 +66,11 @@
     "use_adaptive_sync": false,
     "cloud_height": 192,
     "cloud_distance": 100,
-    "toasts": false,
-    "advancement_toast": false,
-    "recipe_toast": false,
-    "system_toast": false,
-    "tutorial_toast": false,
+    "toasts": true,
+    "advancement_toast": true,
+    "recipe_toast": true,
+    "system_toast": true,
+    "tutorial_toast": true,
     "instant_sneak": false,
     "prevent_shaders": false,
     "steady_debug_hud": true,

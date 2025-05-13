@@ -407,6 +407,14 @@ if [[ "${DIR}" == *" "*  ]]; then
     echo "Current path:"
     echo "${PWD}"
     echo ""
+    echo -n "Are you sure you want to continue? (Yes/No): "
+    read -r WHY
+
+    if [[ "${WHY}" == "Yes" ]]; then
+        echo "Alrighty. Prepare for unforseen consequences, Mr. Freeman..."
+    else
+        crashServer "User did not desire to run the server in a directory with spaces in its path."
+    fi
 fi
 
 # It is not recommended to run the server using root as this introduces security risks to your system.
@@ -481,9 +489,19 @@ esac
 echo ""
 if [[ ! -s "eula.txt" ]]; then
 
-  echo "User agreed to Mojang's EULA."
-  echo "#By changing the setting below to TRUE you are indicating your agreement to our EULA (https://aka.ms/MinecraftEULA)." >eula.txt
-  echo "eula=true" >>eula.txt
+  echo "Mojang's EULA has not yet been accepted. In order to run a Minecraft server, you must accept Mojang's EULA."
+  echo "Mojang's EULA is available to read at https://aka.ms/MinecraftEULA"
+  echo "If you agree to Mojang's EULA then type 'I agree'"
+  echo -n "Response: "
+  read -r ANSWER
+
+  if [[ "${ANSWER}" == "I agree" ]]; then
+    echo "User agreed to Mojang's EULA."
+    echo "#By changing the setting below to TRUE you are indicating your agreement to our EULA (https://aka.ms/MinecraftEULA)." >eula.txt
+    echo "eula=true" >>eula.txt
+  else
+    crashServer "User did not agree to Mojang's EULA. Entered: ${ANSWER}. You can not run a Minecraft server unless you agree to Mojang's EULA."
+  fi
 
 fi
 

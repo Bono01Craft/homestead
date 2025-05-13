@@ -406,7 +406,7 @@
 		}
 		{
 			dependencies: ["76DE9808E8F6C9DD"]
-			description: ["Crafted in a fermentation barrel using White Grape Juice, Sugar and a Rabbit's Foot."]
+			description: ["Crafted in a fermentation barrel using White Grape Juice, Sugar and a Glowstone Dust."]
 			hide_dependency_lines: true
 			id: "34365CC7B4787A01"
 			rewards: [
@@ -417,7 +417,7 @@
 				}
 				{
 					id: "41D8309F2E65C266"
-					item: "minecraft:rabbit_foot"
+					item: "minecraft:glowstone_dust"
 					type: "item"
 				}
 				{

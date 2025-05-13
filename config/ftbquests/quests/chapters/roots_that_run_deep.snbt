@@ -28,7 +28,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Rock by rock, you'll build an empire... or at least a nice cobblestone hut."]
+			description: ["Rock by rock, you'll build an empire... or at least a nice cobbled deepslate hut."]
 			id: "5349E0C38C031F1A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -38,10 +38,12 @@
 			}]
 			subtitle: "Gathering the Foundations"
 			tasks: [{
-				count: 25000L
-				id: "73421F75FFA12A65"
-				item: "minecraft:cobblestone"
-				type: "item"
+				block: "minecraft:deepslate"
+				block_type: 0
+				checkItem: false
+				id: "02DA05BAB18E7AD0"
+				type: "questsadditions:break"
+				value: 25000L
 			}]
 			title: "Stone by Stone"
 			x: -0.5d
@@ -190,7 +192,7 @@
 			id: "43EC615E2B0F6AE5"
 			rewards: [
 				{
-					count: 64
+					count: 128
 					id: "27993925B7B83710"
 					item: "minecraft:stone_bricks"
 					type: "item"
@@ -212,7 +214,7 @@
 				count: 1000L
 				id: "5672F51D7C2A04D6"
 				item: "minecraft:stone"
-				title: "Smelt 256 Stone"
+				title: "Smelt 1,000 Stone"
 				type: "item"
 			}]
 			title: "Stoneheart"
@@ -820,51 +822,6 @@
 				{
 					id: "47CA7366A6CC60E5"
 					item: "natures_spirit:saxaul_sapling"
-					type: "item"
-				}
-				{
-					id: "4941F062B4C5E3F4"
-					item: "betterend:mossy_glowshroom_sapling"
-					type: "item"
-				}
-				{
-					id: "1FEB3B065B667157"
-					item: "betterend:pythadendron_sapling"
-					type: "item"
-				}
-				{
-					id: "1A504321764749A1"
-					item: "betterend:lacugrove_sapling"
-					type: "item"
-				}
-				{
-					id: "1168FC10B6967955"
-					item: "betterend:dragon_tree_sapling"
-					type: "item"
-				}
-				{
-					id: "65864BC627CB9FA6"
-					item: "betterend:tenanea_sapling"
-					type: "item"
-				}
-				{
-					id: "0E4E2E00FBB9193D"
-					item: "betterend:helix_tree_sapling"
-					type: "item"
-				}
-				{
-					id: "086B4E265B4C884D"
-					item: "betterend:umbrella_tree_sapling"
-					type: "item"
-				}
-				{
-					id: "655DD970F539A5D3"
-					item: "betterend:lucernia_sapling"
-					type: "item"
-				}
-				{
-					id: "789D07A3BC8BCD37"
-					item: "betterend:hydralux_sapling"
 					type: "item"
 				}
 				{
@@ -1602,11 +1559,19 @@
 		{
 			description: ["You melted rocks. For fun. You're the rock now."]
 			id: "7836400749B807FA"
-			rewards: [{
-				id: "62A757B49D7B0599"
-				item: "things:mining_gloves"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "62A757B49D7B0599"
+					item: "things:mining_gloves"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "640DA70A90EF9382"
+					table_id: 8585761087875589383L
+					type: "random"
+				}
+			]
 			subtitle: "Smelt 25,000 stone"
 			tasks: [{
 				consume_items: true
@@ -1737,17 +1702,27 @@
 		{
 			description: ["It’s ugly. It’s weird. But you love it now."]
 			id: "08783F659C8946BE"
-			rewards: [{
-				id: "33E811CC9929458D"
-				item: "things:arm_extender"
-				type: "item"
-			}]
-			subtitle: "Collect 10,000 tuff blocks"
+			rewards: [
+				{
+					id: "33E811CC9929458D"
+					item: "things:arm_extender"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "082D28B2355EB589"
+					table_id: 8585761087875589383L
+					type: "random"
+				}
+			]
+			subtitle: "Collect 15,000 tuff blocks"
 			tasks: [{
-				count: 10000L
-				id: "70803D243D820113"
-				item: "minecraft:tuff"
-				type: "item"
+				block: "minecraft:tuff"
+				block_type: 0
+				checkItem: false
+				id: "7D26E77B9BB21ACA"
+				type: "questsadditions:break"
+				value: 15000L
 			}]
 			title: "Tuff Enough?"
 			x: 1.5d

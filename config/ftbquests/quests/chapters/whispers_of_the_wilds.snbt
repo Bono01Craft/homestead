@@ -553,6 +553,18 @@
 		{
 			description: ["Pandas eat it. You hoard it. Balance."]
 			id: "636E70886C04DF0A"
+			rewards: [
+				{
+					id: "4A245605333DF60A"
+					item: "clutter:panda_plushie"
+					type: "item"
+				}
+				{
+					id: "4C0D78A0ED23F247"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Collect 64 bamboo."
 			tasks: [{
 				count: 64L

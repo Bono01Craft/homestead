@@ -95,7 +95,16 @@ if [[ -s ~/.jabba/jabba.sh ]];then
   source ~/.jabba/jabba.sh
 elif ! commandAvailable jabba ; then
   echo "Automated Java installation requires a piece of Software called 'Jabba'."
-  installJabba
+  echo "Type 'I agree' if you agree to the installation of the aforementioned software."
+  echo -n "Response: "
+  read -r ANSWER
+
+  if [[ "${ANSWER}" == "I agree" ]]; then
+    installJabba
+  else
+    echo "User did not agree to Jabba installation. Aborting Java installation process."
+    exit 1
+  fi
 fi
 
 echo "Downloading and using Java ${JDK_VENDOR}@${RECOMMENDED_JAVA_VERSION}"

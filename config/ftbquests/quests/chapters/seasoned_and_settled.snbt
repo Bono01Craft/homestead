@@ -113,7 +113,7 @@
 				}
 			]
 			title: "Harvest Valley"
-			x: -2.5d
+			x: -3.0d
 			y: -5.0d
 		}
 		{
@@ -147,7 +147,7 @@
 				}
 			]
 			title: "A Drop of Craft"
-			x: -1.5d
+			x: -2.0d
 			y: -5.0d
 		}
 		{
@@ -177,7 +177,7 @@
 				item: "farm_and_charm:fertilized_soil"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: -5.0d
 		}
 		{
@@ -204,7 +204,7 @@
 				type: "item"
 			}]
 			title: "Feeding Frenzy"
-			x: 0.5d
+			x: 0.0d
 			y: -5.0d
 		}
 		{
@@ -239,11 +239,11 @@
 				}
 			]
 			title: "Mixing and Mincing"
-			x: 1.5d
+			x: 1.0d
 			y: -5.0d
 		}
 		{
-			dependencies: ["651AAEAFCB58FB12"]
+			dependencies: ["5DA495EE70E0ABFD"]
 			description: ["Time to heat things up. These three tools are essential for any master kitchen!"]
 			id: "3E45BA90FA0F257A"
 			rewards: [
@@ -279,7 +279,7 @@
 				}
 			]
 			title: "Cooks and Flames"
-			x: 2.5d
+			x: 3.0d
 			y: -5.0d
 		}
 		{
@@ -1769,6 +1769,50 @@
 			}]
 			x: 5.5d
 			y: 3.0d
+		}
+		{
+			dependencies: ["651AAEAFCB58FB12"]
+			description: [
+				"The Mincer has many uses, from grinding up wheat into flour to even quickly stripping vanilla logs. This useful tool is where you'll obtain processed meats for various recipes and delicious pasta made from dough! Simply right click to insert your item and hold down to grind it up."
+				""
+				"Grind Wheat in a mincer to obtain flour, and dough to obtain pasta."
+			]
+			id: "5DA495EE70E0ABFD"
+			rewards: [
+				{
+					count: 5
+					id: "309F0BADE31F81FD"
+					item: "farm_and_charm:raw_pasta"
+					type: "item"
+				}
+				{
+					id: "22A4B4DE8096F81A"
+					item: {
+						Count: 1
+						id: "farm_and_charm:compost"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Obtain Flour and Pasta. "
+			tasks: [
+				{
+					id: "17DEA1D12557D3B3"
+					item: "farm_and_charm:flour"
+					type: "item"
+				}
+				{
+					id: "3A397D69D7A035CF"
+					item: "farm_and_charm:raw_pasta"
+					type: "item"
+				}
+			]
+			title: "On The Grind"
+			x: 2.0d
+			y: -5.0d
 		}
 	]
 	title: "Seasoned and Settled"

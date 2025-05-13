@@ -1,7 +1,7 @@
 {
   "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config",
   "misc": {
-    "spelunkery_creative_tab": false,
+    "spelunkery_creative_tab": true,
     "diamond_grindstone_deplete_chance": 64,
     "parachute_opening_delay": 10,
     "enable_mores": true,
